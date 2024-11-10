@@ -1,0 +1,1127 @@
+The Project Management Institute (PMI) provides a Practice Standard for Project Risk Management with the publication of this document. It is designed to assist project managers in implementing risk management processes and practices.
+
+Here are the key points regarding risk management from the text:
+
+1. The practice standard outlines a structured and proactive approach to risk management, which includes identifying, analyzing, responding to, and monitoring project risks.
+2. The process begins with risk identification, which involves determining potential risks that may affect the project's objectives. This can be done through various techniques such as brainstorming, interviewing stakeholders, or using checklists.
+3. Once risks are identified, they are analyzed to determine their probability of occurrence and the impact they would have on the project. This information is used to prioritize risks and determine the appropriate level of response.
+4. Risk responses can include avoiding the risk, transferring it to another party, mitigating its impact, or accepting it. The chosen response will depend on the nature of the risk, its potential impact, and the organization's risk tolerance.
+5. Risk monitoring and control involves tracking identified risks throughout the project's life cycle and adjusting risk responses as necessary. This includes updating the risk management plan, communicating risk information to stakeholders, and documenting lessons learned.
+6. The practice standard also emphasizes the importance of integrating risk management into the overall project management process, including planning, executing, and monitoring and controlling.
+7. The text mentions that the PMI's Risk Management Professional (PMI-RMP) certification is designed for those who wish to demonstrate their expertise in risk management.
+
+Note: The figures and page numbers have been excluded from the extracted information.
+PMI, which administers the consensus development process for its publications, does not write the documents and does not verify the accuracy or completeness of the information contained in them. Users of PMI's standards and guideline publications should exercise reasonable care in relying on the information and can consult other sources for additional views or information. PMI disclaims liability for any damages resulting from the use of its publications and makes no warranty as to their accuracy or completeness. PMI does not certify, test, or inspect compliance with its publications and has no power to enforce compliance.
+* Products, designs, or installations for safety or health purposes are mentioned.
+* Any certifications or statements of compliance with health or safety-related information are not attributable to PMI.
+* The responsibility of the certifier or maker of the statement is solely for the statement of compliance.
+- Risk management is a part of project management.
+- Good risk management practice includes:
+	+ Identifying, analyzing, and responding to project risk.
+	+ Monitoring and controlling project risk.
+- Critical success factors for project risk management:
+	+ Active support from senior management.
+	+ Adequate resources.
+	+ Realistic planning.
+	+ Defined and documented risk management processes.
+- Principle: stakeholder risk attitudes - understanding and addressing stakeholder risk attitudes is essential for effective project risk management.
+- Principle: iterative process - risk management is not a one-time activity, but is iterative and should be performed throughout the project.
+- Principle: communication - effective communication is critical for identifying, analyzing, and responding to project risk.
+- Responsibility for project risk management:
+	+ Ultimate responsibility lies with the project manager.
+	+ Project team members, functional managers, and stakeholders also have a role in risk management.
+- Project manager's role for project risk management includes:
+	+ Developing the risk management plan.
+	+ Identifying, analyzing, and responding to project risk.
+	+ Monitoring and controlling project risk.
+	+ Communicating about project risk.
+- Chapter 3 focuses on Project Risk Management and its processes.
+- Chapter 4 is about Plan Risk Management, which includes:
+-- Purpose and Objectives of the Plan Risk Management Process (Section 4.1)
+-- Critical Success Factors for the Plan Risk Management Process (Section 4.2)
+---- Identify and Address Barriers to Successful Project Risk Management (4.2.1)
+---- Involve Project Stakeholders in Project Risk Management (4.2.2)
+---- Comply with the Organization’s Objectives, Policies, and Practices (4.2.3)
+-- Tools and Techniques for the Plan Risk Management Process (Section 4.3)
+---- Planning Sessions (4.3.1)
+---- Templates (4.3.2)
+-- Documenting the Results of the Plan Risk Management Process (Section 4.4)
+- Chapter 5 covers Identify Risks, which includes:
+-- Purpose and Objectives of the Identify Risks Process (Section 5.1)
+-- Critical Success Factors for the Identify Risks Process (Section 5.2)
+---- Early Identification (5.2.1)
+---- Iterative Identification (5.2.2)
+---- Emergent Identification (5.2.3)
+Relevant information about risk management:
+
+- Comprehensive identification of risks.
+- Explicit identification of opportunities.
+- Multiple perspectives in risk identification.
+- Linking risks to project objectives.
+- Complete risk statement.
+- Ownership and level of detail in risk identification.
+- Objectivity in risk identification.
+- Tools and techniques for risk identification: historical review, current assessments, creativity techniques.
+- Documenting the results of the risk identification process.
+- Perform Qualitative Risk Analysis Process with objectives of:
+	+ Use agreed-upon approach.
+	+ Use agreed-upon definitions of risk terms.
+	+ Collect high-quality information about risks.
+	+ Perform iterative qualitative risk analysis.
+- Qualitative risk analysis involves selecting risk characteristics that define risks' importance, collecting and analyzing data, prioritizing risks by probability and impact on specific objectives and overall project, categorizing risk causes, and documenting results.
+- Quantitative risk analysis aims to derive overall project risk from individual risks, considering interrelationships between risks.
+- Critical success factors for quantitative risk analysis include prior risk identification and qualitative risk analysis, appropriate project model, commitment to collecting high-quality risk data, unbiased data, and consideration of overall project risk derived from individual risks and interrelationships between risks.
+- Tools and techniques for quantitative risk analysis include comprehensive risk representation.
+7.3.2 Risk Impact Calculation: A method to determine the potential impact of risks.
+
+7.3.3 Quantitative Method Appropriate to Analyzing Uncertainty: Uses numerical data and mathematical calculations to analyze risks.
+
+7.3.4 Data Gathering Tools: Tools used to collect data for risk analysis.
+
+7.3.5 Effective Presentation of Quantitative Analysis Results: A way to present the results of the risk analysis in a clear and understandable manner.
+
+7.3.6 Iterative Quantitative Risk Analysis: A process of repeatedly analyzing risks to improve accuracy.
+
+7.3.7 Information for Response Planning: Information gathered from the risk analysis used to plan responses.
+
+8.1 Purpose and Objectives of the Plan Risk Responses Process: The process of developing strategies to address risks.
+
+8.2 Critical Success Factors for the Plan Risk Responses Process:
+
+- Communicate: Clearly communicate risk-related information.
+- Clearly Define Risk-Related Roles and Responsibilities: Define who is responsible for what in regards to risk management.
+- Specify Timing of Risk Responses: Determine when risk responses will be implemented.
+- Provide Resources, Budget, and Schedule for Responses: Allocate the necessary resources for risk responses.
+- Address the Interaction of Risks and Responses: Consider how risk responses may impact other risks.
+- Ensure Appropriate, Timely, Effective, and Agreed-Upon Responses: Ensure that risk responses are appropriate, timely, effective, and agreed upon.
+- Address Both Threats and Opportunities: Develop strategies to address both potential threats and opportunities.
+- Develop Strategies before Tactical Responses: Develop overarching strategies before implementing specific responses.
+
+8.3 Risk Response Strategies:
+
+- Avoid a Threat or Exploit an Opportunity: Develop strategies to avoid potential threats or exploit potential opportunities.
+• Risk response strategies include:
+	- Transfer a threat or share an opportunity
+	- Mitigate a threat or enhance an opportunity
+	- Accept a threat or an opportunity
+• Applying risk response strategies to overall project risk
+• Tools and techniques for the Plan Risk Responses Process:
+	- Response Identification
+	- Response Selection
+	- Action Planning
+	- Ownership and Responsibility Assignment
+• Documenting the results of the Plan Risk Responses Process:
+	- Add Risk Responses to the Risk Register
+	- Add Corresponding Risk Responses to the Project Management Plan
+	- Review and Document Predicted Exposure
+• Monitor and Control Risks Process purpose and objectives:
+	- Continuously monitor risk triggers
+• Critical success factors for the Monitor and Control Risks Process:
+	- Integrate Risk Monitoring and Control with Project Monitoring and Control.
+9.2.3 Maintain Risk Awareness:
+- Continually monitor risks and their potential impacts on the project.
+
+9.3 Tools and Techniques for the Monitor and Control Risks Process:
+- Managing Contingency Reserves:
+  - Contingency reserve is the amount of the project budget allocated for identified risks.
+- Tracking Trigger Conditions:
+  - Trigger conditions are events or circumstances that require a predefined response because they indicate that a risk has occurred or is about to occur.
+- Tracking Overall Risk:
+  - Risk parameters should be monitored and updated regularly to reflect the current risk exposure.
+- Tracking Compliance:
+  - Compliance with risk management policies, procedures, and plans should be monitored and reported.
+
+9.4 Documenting the Results of the Monitor and Control Risks Process:
+- Document the results of risk monitoring and control activities, including any changes to the risk register, risk-related documentation, or project plans.
+- The Practice Standard for Project Risk Management outlines the approach to risk management in a project.
+- Risk management planning techniques include SWOT analysis, assumptions analysis, and expert judgment (D.1.1).
+- Techniques for identifying risks include brainstorming, interviewing, and Delphi technique (D.2.1).
+- For qualitative risk analysis, techniques such as probability/impact matrices, risk urgency assessment, and risk data quality assessment are used (D.3.1).
+- Techniques for quantitative risk analysis include sensitivity analysis, expected monetary value, and simulation (D.4.1).
+- Planning risk responses includes techniques such as avoidance, transference, mitigation, and acceptance (D.5).
+• D.5.1 Techniques for Plan Risk Response:
+- Qualitative risk analysis: A subjective technique to determine the probability and impact of risks.
+- Quantitative risk analysis: A mathematical technique to estimate the probability and impact of risks.
+- Risk data quality assessment: A process to evaluate the quality of risk data.
+- Risk categorization: A process to classify risks based on their source, type, and impact.
+- Risk probability and impact assessment: A process to determine the likelihood and effect of risks.
+
+• D.6 Techniques, Examples and Templates for Monitor and Control Risks:
+- Risk identification: A continuous process to detect new risks and update existing risks.
+- Risk assessment: A regular process to evaluate the probability and impact of risks.
+- Risk response planning: A process to develop responses to risks.
+- Risk monitoring and reporting: A process to track and report risk status.
+- Risk tolerance: The level of risk that an organization is willing to accept.
+- Risk appetite: The amount and type of risk that an organization is prepared to pursue.
+
+• Figure 9-1: Risk Management Process (Monitor and Control Risks)
+- Risk identification
+- Risk assessment
+- Risk response planning
+- Risk monitoring and reporting
+
+Note: There are no specific figures related to risk management provided in the section.
+- Figure 1-2 highlights Critical Success Factors for Project Risk Management, including:
+  - Establishing a risk management plan early in the project
+  - Tailoring risk management activities to the project
+  - Integrating risk management activities into the overall project management process
+  - Allocating sufficient time and resources to risk management
+  - Involving stakeholders in risk management activities
+
+- Figure 3-1 presents the Project Risk Management Process Flow Diagram, which consists of:
+  - Plan Risk Management
+  - Identify Risks
+  - Perform Qualitative Risk Analysis
+  - Perform Quantitative Risk Analysis
+  - Plan Risk Responses
+  - Monitor and Control Risks
+
+- Figure 4-1 outlines Key Areas of Focus for the Plan Risk Management Process, such as:
+  - Developing a risk management plan
+  - Identifying roles and responsibilities for risk management
+  - Describing the methods and techniques for risk management
+  - Planning for risk response
+
+- Figure 5-1 illustrates Three Perspectives of Risk Identification:
+  - Risks related to project objectives
+  - Risks related to project processes
+  - Risks related to external factors
+
+- Figure 6-1 emphasizes building risk analysis credibility by:
+  - Ensuring data accuracy
+  - Using appropriate analysis techniques
+  - Communicating results effectively
+
+- Figure 6-2 depicts The Perform Qualitative Risk Analysis Process, which includes:
+  - Identifying risks
+  - Assessing probability and impact
+  - Prioritizing risks
+
+- Figure 7-1 compares Qualitative and Quantitative Approaches, highlighting that qualitative analysis is more subjective and focuses on probability and impact, while quantitative analysis is more objective and involves numerical calculations.
+
+- Figure 7-2 shows the Structure of a Quantitative Risk Analysis, which includes:
+  - Defining risk parameters
+  - Modeling uncertainty
+  - Performing sensitivity analysis
+  - Conducting Monte Carlo simulations
+
+- Figure 8-1 lists Critical Success Factors for Risk Response Planning, such as:
+  - Identifying appropriate risk response strategies
+  - Assigning ownership for risk response
+  - Integrating risk response into the overall project plan
+
+- Figure 8-2 outlines The Steps Involved in Planning Risk Responses, including:
+  - Identifying risk response strategies
+  - Developing risk response plans
+  - Implementing risk response plans
+  - Monitoring risk response effectiveness
+
+- Figure 9-1 displays a Schematic Representation of the Monitor and Control Risks Process, which involves:
+  - Identifying new risks
+  - Evaluating risk triggers
+  - Reviewing risk responses
+  - Updating the risk management plan.
+The Practice Standard for Project Risk Management provides a standard for project management practitioners and stakeholders, defining the aspects of Project Risk Management recognized as good practice on most projects most of the time. It aims to be globally applicable and consistently applied.
+
+1.3 Role of Project Risk Management in Project Management:
+
+- Project Risk Management involves the processes of conducting risk management planning, identification, analysis, response planning, and monitoring and control on a project.
+- It is an ongoing process throughout the project life cycle.
+
+1.4 Good Risk Management Practice:
+
+- Recognizes that risk management is a professional endeavor requiring specialized skills and knowledge.
+- Integrates risk management processes into the overall project management process.
+- Tailors risk management activities to the specific project.
+
+1.5 Critical Success Factors for Project Risk Management:
+
+- Active support from senior management.
+- Competent risk management team.
+- Realistic and timely risk management planning.
+- Adequate resources for risk management activities.
+- Effective communication and collaboration among project stakeholders.
+- Continuous risk management process throughout the project life cycle.
+The Practice Standard for Project Risk Management focuses on risk management for individual projects, and is based on Chapter 11 of the PMBOK ® Guide – Fourth Edition. It covers six Project Risk Management processes: Plan Risk Management, Identify Risks, Perform Qualitative Risk Analysis, Perform Quantitative Risk Analysis, Plan Risk Responses, and Monitor and Control Risks. Each process is described with its purpose, critical success factors, tools and techniques, and documentation. The standard emphasizes principles fundamental to effective Project Risk Management, which are stated at a general level.
+Risk management involves a series of processes to be applied to both large and small projects, with approaches that can be tailored to the specific project, organization, and situation. It should be congruent with the organizational culture, processes, and assets and effective in a global context, reflecting various business arrangements and cross-cultural environments. The Project Risk Management definition, as defined in the PMBOK ® Guide – Fourth Edition, includes the processes of risk management planning, identification, analysis, responses, and monitoring and control. The objectives of Project Risk Management are to increase the probability and impact of positive events.
+Risk management is the process of decreasing the probability and impact of negative events in a project. It is defined in the PMBOK ® Guide – Fourth Edition as an uncertain event or condition that can have a positive or negative effect on project objectives, which include scope, schedule, cost, and quality.
+
+Risk management aims to identify and prioritize risks in advance of their occurrence and provide actionable information to project managers. It is an essential part of successful project management and should be included in project plans and operational documents. It builds upon and extends other project management processes, such as project scheduling, which provides dates and critical paths based on certain assumptions. Risk management addresses the uncertainty in these assumptions by exploring the uncertainty in estimated durations and providing alternative dates and critical paths that are more realistic given the risks to the project. It is not a substitute for other project management processes.
+Project Risk Management involves performing project management processes such as scheduling, budgeting, and change management at the best practices level, while adding a risk perspective to increase the value of these processes. Risk management provides the basis for estimating cost and schedule contingency reserves to cover risk response actions for meeting project objectives.
+
+There is a paradox in project risk management where risk exposure is highest in the early stages of a project, but information on project risks is minimal. A risk management approach is applicable throughout a project's life cycle, with risks recognized early on leading to more realistic project plans and expectations. Regular review and optimization of the balance between project flexibility and knowledge about project risk is necessary as plans develop. The project plan becomes less flexible with fundamental decisions, agreements, and contracts in place.
+- Project Risk Management involves monitoring changes in a project to identify new risks and assess the continued plausibility of existing risks.
+- It plays a crucial role in setting realistic expectations for project completion dates and costs.
+- Risk-related lessons are reviewed throughout the project and during closure to support organizational learning and continuous improvement of Project Risk Management practice.
+- Project Risk Management should be conducted in accordance with existing organizational practices and policies, and in a manner appropriate to the project.
+- It should take into account the business challenges and multi-cultural environment of an increasingly global environment, including joint venture projects and geographically dispersed stakeholders.
+- Changes resulting from Project Risk Management may require decisions at the appropriate level of management to reassign personnel, modify budgets, make commitments, interact with regulators, and comply with rules of accounting and law.
+- Project Risk Management should be carried out in compliance with internal and external requirements.
+Project Risk Management should be conducted ethically, with characteristics such as honesty, responsibility, professionalism, and fair dealing. Effective Project Risk Management benefits from robust communication and consultation with stakeholders, and should be carried out in a realistic and objective way, not subject to political or unreasonable influences. The degree of resources, time, and attention applied to Project Risk Management should be proportionate to the project's characteristics and value. Each Project Risk Management process should be scaled to be appropriate for the project and reviewed periodically. General criteria for success of Project Risk Management include recognizing the value of risk management.
+Risk management is a valuable discipline that provides a positive potential return on investment for organizational management, project stakeholders, project management, and team members.
+
+• Individual Commitment/Responsibility: Project participants and stakeholders should accept responsibility for risk-related activities. Risk management is everybody's responsibility.
+
+• Open and Honest Communication: Everyone should be involved in the risk management process, and any actions or attitudes that hinder communication about project risk reduce its effectiveness.
+
+• Organizational Commitment: Organizational commitment can only be established if risk management is aligned with the organization's goals and values. It may require a higher level of managerial support than other project management disciplines.
+
+• Risk Effort Scaled to Project: Project risk management activities should be consistent with the value of the project to the organization, its level of project risk, its scale, and other organizational constraints. The cost of risk management should be appropriate to its potential value to the project and the organization.
+
+• Integration with Project Management: Project risk management does not exist in a vacuum and requires the correct execution of other project management processes.
+Risk management provides benefits when implemented according to good practice principles and with organizational commitment. Importance of unbiased decision-making and action-taking.
+
+In a large international manufacturing company, the risk management process was implemented and resulted in a significant reduction in the number of accidents and incidents. Specifically, there was a:
+
+* 68% reduction in the number of high-consequence potential loss events
+* 38% reduction in the number of medium-consequence potential loss events
+* 18% reduction in the number of low-consequence potential loss events
+
+These risk management efforts led to an overall decrease in costs associated with accidents and incidents, as well as increased productivity and efficiency.
+The key concepts of Project Risk Management, as described in the Practice Standard for Project Risk Management, include:
+
+* Project risk is defined as an uncertain event or condition that, if it occurs, has a positive or negative effect on a project's objectives.
+* The definition of project risk includes two key dimensions: uncertainty and effect on a project's objectives.
+* When assessing the importance of a project risk, both the uncertainty and the effect must be considered.
+* The uncertainty dimension can be described using the term "probability" and the effect can be called "impact".
+* Project risk includes both distinct events which are uncertain but can be clearly described, and more general conditions which are less specific but also may give rise to uncertainty.
+* Project risk encompasses uncertain events which could have a negative effect on a project's objectives, as well as those which could have a positive effect. These two types of risk are called, respectively, threats and opportunities.
+Risks are uncertain future events or conditions that may or may not occur, but would matter if they did. When a risk event occurs, it ceases to be uncertain. Threats which occur may be called issues or problems, while opportunities which occur may be called benefits. Both issues/problems and benefits entail project management actions that are outside the scope of the Project Risk Management process.
+
+It is useful to consider project risk at two levels: individual risks and overall project risk. Individual risks are specific events or conditions that might affect project objectives and can be positive or negative, affecting one or more project objectives, elements, or tasks. Understanding individual risks can assist in determining how to apply effort and resources to enhance the chances of project success. Day-to-day Project Risk Management focuses on these individual risks to enhance the prospects of a successful project outcome. Overall project risk represents the effect of uncertainty on project objectives and can be influenced by individual risks.
+Risk management is an important component of strategic decision-making, program and portfolio management, and project governance. It involves setting realistic targets for the cost and duration of a project, establishing contingency reserve levels, setting project priorities, and judging whether the risk of overall success is increasing or decreasing as implementation advances.
+
+Stakeholder risk attitudes determine the extent to which a project risk matters. These attitudes are influenced by factors such as the scale of the project, public commitments made about the project, and sensitivity to issues such as environmental impacts and industrial relations. Stakeholders usually desire increased certainty in project outcomes and may express a preference for one project objective over another. An organization's culture also strongly influences how risk is regarded.
+
+Understanding stakeholders' attitudes toward risk is an important component of risk management planning, which precedes risk identification and analysis. This helps optimize both project success and stakeholder satisfaction.
+
+Contingency reserve levels are established to protect project stakeholders from risks.
+
+Judging whether the risk of overall success is increasing or decreasing as implementation advances is a key aspect of project governance.
+Risk management in projects should be proactively and deliberately managed throughout the project, with attitudes towards risk identified and managed. Stakeholder risk attitudes may differ between projects, groups, and even for a single stakeholder at different stages of the same project. The iterative process of risk management should be repeated throughout the project lifetime, with periodic revisiting of risk identification, analysis, and progress monitoring. The frequency of reviews and updates depends on the project's nature, environmental volatility, and timing of other project management reviews. Successful project risk management relies heavily on communication throughout the process, with comprehensive risk identification and analysis.
+Relevant information about risk management:
+
+* Stakeholder input is important in project risk management to ensure that significant risks are not overlooked and are realistically assessed.
+* Effective and honest communication from the Project Risk Management process to the rest of the project team and other project stakeholders is necessary to assure the credibility of the process and commitment of those who should act to manage risks.
+* Communication of risk management results should be targeted to meet the specific needs of each stakeholder and should be reflected within the overall project communications strategy.
+* Each stakeholder's responsibility and role in risk management should be identified and agreed upon.
+* Project Risk Management should be included as an integral part of all other project processes.
+* Anyone with an interest in achieving project objectives should play a role in Project Risk Management.
+* Roles and responsibilities for Project Risk Management should be clearly defined, communicated, and individuals should be held responsible and accountable for results.
+* Responsibility should be allocated for ensuring that risk-related lessons are learned and implemented.
+* The project manager is responsible for the day-to-day management of the project, including effective risk management.
+* The project manager determines the acceptable levels of risk for the project in consultation with stakeholders.
+* The project manager develops and approves the risk management plan.
+* The project manager participates in all aspects of the risk management process, including approving risk responses and associated actions prior to implementation.
+* The project manager applies project contingency funds to deal with identified risks that occur during the project.
+* The project manager oversees risk management by subcontractors and suppliers.
+* The project manager regularly reports risk status to key stakeholders, with recommendations for appropriate strategic decisions and actions to maintain acceptable risk exposure.
+* The project manager escalates identified risks to senior management where appropriate, including risks that are outside the authority or control of the project manager, require input or action from outside the project, and for which the release of management reserve funds might be appropriate.
+* The project manager monitors the efficiency and effectiveness of the risk management process, and audits risk responses for their effectiveness, documenting lessons learned.
+Project Risk Management is an integral part of project management and is a critical success factor for project success. It should not be viewed as an optional process or additional overhead task, but should be clearly interfaced with other project management processes. The outputs of Project Risk Management can impact:
+
+* Estimating resource requirements, cost, or duration
+* Assessing the impact of proposed scope changes
+* Planning or re-planning the forward strategy of the project
+* Allocating resources to tasks
+* Reporting progress to stakeholders
+
+The effectiveness of project management processes is increased by using the information and results from Project Risk Management.
+Risk Management in project management requires inputs from other processes, including the work breakdown structure (WBS), estimates, project schedule, and assumptions list. The Project Risk Management process is structured and includes defined steps to understand and manage risk on a project. The steps should be scalable to meet the varying degrees of risk, with scalable elements including resources, methodology and processes, tools and techniques, supporting infrastructure, review and update frequency, and reporting requirements. A clear understanding of risk thresholds and a framework for assessing identified risks is necessary for a successful Project Risk Management implementation. The process begins with an initiation step to ensure a common understanding and agreement among the team and stakeholders on the approach and parameters.
+The relevant information about risk management from the provided section is as follows:
+
+* Project Risk Management activities should be tailored to the specific project and its level of risk.
+* The main actions to provide this tailoring include defining risk objectives, scaling the elements of the Project Risk Management process for the project, and defining risk thresholds, tolerances, and the assessment framework.
+* The outputs from this initial step should be documented, communicated, and reviewed by stakeholders for a common understanding and formal approval at a senior level.
+* Once the Project Risk Management scope and objectives are agreed upon, risk identification can begin, carefully distinguishing genuine risks from non-risks.
+* A variety of risk identification techniques are available, and one or more should be selected based on the specific project's needs.
+* The aim is to expose and document all knowable risks, recognizing that some risks will be inherently unknowable and others will emerge later in the project.
+* The Project Risk Management process should be iterative, repeating the risk identification process to find risks that were not evident earlier in the project.
+* Input should be sought from a wide range of project stakeholders when identifying risks, since each will have a different perspective on the risks facing the project.
+* Historical records and project files can be used as input for risk identification.
+
+Note: There are no specific figures or numbers provided in the section.
+* Risk identification is the process of recording and designating a risk owner for each identified risk.
+* The responsibility of the risk owner is to manage the corresponding risk through all subsequent Project Risk Management processes.
+* Following risk identification, it is necessary to evaluate the importance of each risk through qualitative and/or quantitative techniques.
+* Qualitative techniques are used to gain a better understanding of individual risks, considering characteristics such as probability of occurrence, degree of impact on project objectives, manageability, timing of possible impacts, relationships with other risks, common causes or effects, etc.
+* Understanding and prioritizing risks is an essential prerequisite to managing them, so qualitative techniques are used on most projects.
+* Quantitative techniques provide insights into the combined effect of identified risks on the project outcome, taking into account probabilistic or project-wide effects, such as correlation between risks, interdependency, and feedback loops.
+* The results of quantitative analysis should be used to focus the development of appropriate responses to risks.
+
+(Note: Specific figures or data were not provided in the section, so I couldn't include any.)
+Risk management involves the development of appropriate responses to project risks, including the calculation of required contingency reserve levels. Responses should be documented and communicated to inform subsequent actions. Quantitative techniques may not be required for all projects. After risks are prioritized and overall project risk exposure is understood, an iterative process is used to develop optimal risk responses. A range of strategies exist for both threats and opportunities, and the risk owner should select a suitable strategy based on a risk's characteristics and priority. Risk owners are responsible for defining and implementing actions to execute the chosen strategy, and should monitor the effectiveness of these actions. All response strategies and actions should be documented and communicated to key project stakeholders and incorporated into the project plan. It is essential that agreed-upon actions are implemented and that the Project Risk Management process is repeated regularly throughout the project's life.
+The section describes the Project Risk Management process, which includes the following steps:
+
+1. Plan Risk Management (Chapter 4) - This step defines the scope and objectives of the risk management process and ensures its integration into wider project management.
+2. Identify Risks (Chapter 5) - This step identifies as many knowable risks as possible.
+3. Perform Qualitative Risk Analysis (Chapter 6) - This step evaluates the key characteristics of individual risks to prioritize them for further action.
+4. Perform Quantitative Risk Analysis (Chapter 7) - This step evaluates the combined effect of risks on the overall project outcome.
+5. Plan Risk Responses (Chapter 8) - This step determines appropriate response strategies and actions for each individual risk and for overall project risk and integrates them into a consolidated project management plan.
+6. Monitor and Control Risks (Chapter 9) - This step implements agreed-upon actions, reviews changes in project risk exposure, identifies additional risk management actions as required, and assesses the effectiveness of the Project Risk Management process.
+
+Figure 3-1 shows the flow of control and information between the various steps within the Project Risk Management process.
+The Plan Risk Management process aims to develop the overall risk management strategy for a project, including how risk management processes will be executed and integrated with other project management activities. A risk management plan is crucial for effective risk management, describing how risk management processes should be carried out and their relationships with other project management and organizational processes. Initial risk management planning should be done early in the project's planning phase, with the risk management plan possibly adapted as project and stakeholder needs become clearer.
+
+A budget for specific risk management activities should be established in terms of resources, cost, and time to better track, control, and defend expenditures. The cost of treating risks should be included in the project budget, and the risk management plan should describe how this part of the budget is evaluated, allocated, and managed. The plan will also define monitoring methods for tracking risk management expenditures and conditions for modifying the approved risk management budget.
+Risk management activities should be repeated throughout the project, integrated into the project management plan, and have a defined normal frequency for repetition. There are two categories of success criteria for risk management: project-related and process-related. Project-related criteria for assessing the success of Project Risk Management include agreement on an acceptable level of results for project-related criteria such as cost, time, and scope, with these objectives presented in reference to the project definition documents. Process-related criteria for success in Project Risk Management depend on factors such as the level of uncertainty of the project and the attitudes of relevant stakeholders towards risk. The level of risk considered acceptable in a project depends on the risk attitudes of the organization and stakeholders. The Project Risk Management process for a research project may need to address more unforeseen changes than for a project with a more predictable environment.
+Risk management involves identifying and analyzing factors that can affect a project, taking into account the organization's tolerance for uncertainty and the importance of specific project objectives. This analysis should be used to set thresholds and provide weighting factors for the Project Risk Management processes. Guidelines for escalating risk-related information should reflect the risk attitudes and expectations of stakeholders. The project manager should communicate effectively with stakeholders and ensure a common understanding of risk terms and definitions. Key numerical values for quantitative analysis and decision-making should be specified in the risk management plan. The risk management plan should also establish the type and level of risk detail, provide a template for the risk register, and indicate the intensity and frequency of the Project Risk Management processes.
+The risk management plan specifies the project's risk management roles and responsibilities, outlining expectations for both senior management and project personnel. It covers risk-related communication at two levels: within the project team and between the project team and other stakeholders.
+
+For the project team, the plan describes the frequency and scope of risk management meetings and reports, including their structure and content. For other stakeholders, the plan sets expectations for the structure, content, and frequency of routine documents and information sharing for escalation or exceptional events. The plan also details the information required by the project team from stakeholders.
+
+Critical success factors for the Plan Risk Management process include:
+
+1. Acceptance by stakeholders
+2. Alignment with internal and external project constraints
+3. Balance between cost or effort and benefit
+4. Completeness with respect to the needs of the Project Risk Management process
+5. Identification and addressing barriers to successful project risk management.
+* Risk management should be viewed as a skill separate from general project management and should be actively managed rather than passively approached.
+* A clear definition of project objectives and a high-level view of the project environment are necessary for risk management.
+* The project manager should ensure that valid definition and planning information is available for the plan risk management activity.
+* The availability of organizational process assets such as standard templates, predefined risk categories, and an established project management methodology can contribute to the success of risk management planning.
+* Access to relevant lessons learned can allow experience to be taken into account from the start of the project.
+* The risk management plan will not deliver value unless project risk management is carried out as an integral part of the project, with corresponding activities built into the project work breakdown structure and included in the schedule, budget, and work-assignment documents.
+* Stakeholders should be involved in project risk management.
+* Project stakeholders should be involved in Plan Risk Management activities to build skills, experience, understanding, and commitment.
+* Management should approve risk management resources specified in the risk management plan, and be involved in analyzing the level of resourcing required for managing project risk.
+* Disagreements between stakeholders in the areas of risk tolerance and evaluation measures should be addressed and resolved.
+* The risk management plan should comply with the organization's objectives, policies, and practices.
+* Planning sessions are recommended to build a common understanding of the project's risk approach and gain agreement on risk management techniques.
+* The risk management plan should serve as an effective means for the team to work together.
+The Plan Risk Management process should include a consultative team approach with participants such as the project manager, project team members, stakeholders, organization members responsible for risk, and subject matter experts. Initial risk responsibilities, methodology, templates, terms, definitions, time schedules, and cost budgets for risk management processes should be assigned and accepted. The risk management plan should document the specifications for tools to be used in subsequent processes, including all required parameters and inputs.
+
+When documenting the results of the Plan Risk Management process, relevant existing templates for work products such as risk status reports, risk breakdown structures, and the risk register should be taken into account. A decision should be made on which templates are relevant to the project and adapted for inclusion in the risk management plan. The risk management plan should provide stakeholders with a common view of risk-related activities, agreements, and stakeholder responsibilities. The key areas of focus for the Plan Risk Management process include:
+
+* Defining the risk management strategy
+* Identifying the risk management team
+* Describing the roles and responsibilities of the risk management team
+* Developing the risk management plan
+* Establishing the risk management budget
+* Planning for risk response
+* Planning for risk monitoring and reporting.
+• Risk management methodology
+• Roles, responsibilities, and authority
+• Stakeholder risk tolerance
+• Thresholds and corresponding definitions
+• Risk management tools and guidelines for use
+• Strategy
+• Risk breakdown structure
+
+(Note: Figures or specific values were not provided in the section.)
+The Identify Risks process is the first step in project risk management, with the purpose of identifying all knowable risks to project objectives. The process should be iterative, repeating to find new risks that have become knowable since the previous iteration. Risk identification should be performed as early as possible in the project lifecycle, even with high uncertainty and less information. Early risk identification enables key project decisions to take maximum account of project risks. Critical success factors for the Identify Risks process include early identification and potential response identification, which should be recorded and considered for immediate action if appropriate.
+Risk identification is an iterative process that should be carried out throughout the project life cycle, including at key milestones or during significant changes to the project or its environment. Risks can be identified at any time, not just during formal identification events or reviews. A broad range of sources and perspectives should be considered to ensure that all potential uncertainties are identified. Opportunities should also be explicitly identified during the risk identification process. Each identified risk should be linked to at least one project objective, such as time, cost, quality, or scope. Early identification and response to risks is efficient as it can minimize costs.
+
+(Note: The figures or page numbers were not provided in the section, so I couldn't include any specific numbers in the extracted information.)
+* Identifying risks should be done per project objective, considering that some risks may affect multiple objectives.
+* Risk statements should be complete and unambiguous, describing the uncertainty and its causes and effects in detail.
+* Risks should be described at a level of detail that allows assignment to a single owner with clear responsibility and accountability. Trigger conditions should also be identified if possible.
+* Objectivity during the risk identification process is important to minimize subjectivity and allow for the identification of as many risks as possible. Sources of bias should be managed proactively.
+* A range of tools and techniques is available for the risk identification process.
+
+(Note: Specific figures or page numbers were not provided in the section.)
+Risk identification falls into three categories:
+
+1. Historical Review:
+	* Based on past projects, either within the same organization or in other organizations
+	* Relies on comparison to similar projects and careful data selection
+	* Involves considering risks from the selected historical situations and assessing if they could arise in the current project
+2. Current Assessments:
+	* Rely on detailed analysis of the current project
+	* Analyze project characteristics against given frameworks and models to expose areas of uncertainty
+	* Does not rely on outside reference points, purely based on examination of the project
+3. Creativity Techniques:
+	* Encourages project stakeholders to use imagination to find risks
+	* Can be used singly or in groups, with varying degrees of structure
+	* Depends on the ability of participants to think creatively
+	* Success is enhanced by use of a skilled facilitator
+
+No single technique can reveal all knowable risks, and the Identify Risks process should use a combination of techniques.
+Relevant information about risk management:
+
+* A combination of risk identification techniques can be used, such as a risk identification checklist (historical review), assumptions analysis (current assessment), and brainstorming (creativity).
+* Use of a risk breakdown structure, prompt list, or set of generic list categories can assist in identifying potential risks.
+* Identified risks should be unambiguously described using structured risk descriptions and risk meta-language, which distinguishes a risk from its cause(s) and effect(s) using three-part statements in the form: “As a result of cause, risk may occur, which would lead to effect.”
+* The results from the risk identification process should be recorded in a risk register, which includes a properly structured risk description, the nominated risk owner for each risk, and may also include information on the causes and effects of the risk, trigger conditions, and preliminary responses.
+
+No specific figures were provided in this section.
+The Perform Qualitative Risk Analysis process:
+
+- Assesses and evaluates characteristics of individually identified project risks.
+- Prioritizes risks based on agreed-upon characteristics.
+- Evaluates the probability of each risk and the effect of each risk on project objectives.
+- Categorizes risks according to their sources or causes to identify common root causes and more effective risk responses.
+- Identifies common effects from groups of risks to identify areas of greatest risk exposure (e.g. project completion date, budget, deliverable scope).
+- Provides project management with the characteristics of risks that have the most influence on achieving the project's objectives.
+- High-priority risks, whether threatening or enhancing the achievement of project objectives, are an important focus in the Plan Risk Responses process and may be further analyzed in the Perform Quantitative Risk Analysis process.
+Relevant information about risk management:
+
+- Successful qualitative risk analysis is based on an agreed-upon approach for assessing all identified risks in a project.
+- Risks are assessed according to probability of occurrence and impact on individual objectives.
+- Other factors considered in determining the importance of a risk include:
+	+ Urgency (proximity), indicated by lead time necessary to execute a risk response and clarity of symptoms/warning signs.
+	+ Manageability, with options to go forward, stop/re-scope the project, inform the customer, or address risks that affect the enterprise beyond the project.
+
+Note: The figures and specific page numbers have been removed, as well as any irrelevant content.
+Risk assessment should be based on agreed-upon definitions of terms and use these definitions consistently. High-quality information about risks should be collected, which may require interviews, workshops, and expert judgment. Data gathered may be subject to bias, which should be identified and remedied if possible. Iterative qualitative risk analysis should be performed periodically throughout the project, with the frequency determined during the Plan Risk Management process. The Perform Qualitative Risk Analysis Process involves tools and techniques to assess individual risks and identify those important to the project's success.
+* Qualitative risk analysis tools help prioritize risks based on their characteristics, such as probability of occurrence and impact on objectives.
+* Output from these tools is a list of risks prioritized in order of importance or in priority groups (e.g. high, moderate, low).
+* Data collection and evaluation is crucial for individual risk assessment, using tools such as interviews, workshops, and references to databases of prior projects.
+* It is important to protect against bias in data gathering, especially when relying on expert judgment.
+* Some tools allow prioritizing risks based on their impact on specific objectives, providing a list of risks important for any specific objective of interest to management.
+* Prioritizing risks based on their impact on the entire project can be useful for communication with management and other stakeholders. A single risk prioritization index can be constructed for this purpose.
+The Perform Qualitative Risk Analysis process should involve categorizing risks, which can lead to improved analysis of risk probability and magnitude, as well as effective responses. Identifying common root causes of risks can reveal the magnitude of risk events and effective strategies for addressing multiple risks simultaneously. Understanding the chain of risks can lead to a better understanding of risk implications for the project. Identifying risks that can occur at the same time or using the same resources for recovery can provide a realistic picture of risk mitigation using scarce resources.
+
+Combining the results of the Perform Qualitative Risk Analysis process with the risk breakdown structure can show clusters of priority risks arising from specific sources. Assessing the impact of high-priority risks on specific objectives, such as the schedule, can indicate which activities to address to reduce uncertainty. Documenting the results of the qualitative risk analysis is necessary.
+The Perform Qualitative Risk Analysis process:
+
+* Prioritizes risks based on probability of occurring and potential impact on project objectives or the whole project.
+* Each identified risk is assigned a priority.
+* Information is stored in a risk register, which can be easily updated with new information.
+* High priority risks are segregated for further analysis and response planning, and are generally monitored frequently.
+* Risks of low priority to the project may be placed on a watch list and are reviewed less often for changes in their status.
+The Perform Quantitative Risk Analysis process provides a numerical estimate of the overall effect of risk on project objectives, considering risks simultaneously. It can be used to evaluate the likelihood of success in achieving project objectives and to estimate contingency reserves for time and cost. Quantitative risk analysis, such as Monte Carlo simulation, may provide more realism in the estimate of overall project cost or schedule than a non-probabilistic approach. However, it is not always required or appropriate for all projects and may require more effort than qualitative risk analysis. The Perform Quantitative Risk Analysis process calculates estimates of overall project risk, usually at a detailed level such as the line-item cost or schedule activity level.
+- Overall risk analysis using quantitative methods estimates the implication of all quantified risks on project objectives.
+- Implementation requires:
+	+ Complete and accurate representation of project objectives, such as the project schedule or cost estimate.
+	+ Identifying risks on individual project elements like schedule activities or line-item costs.
+	+ Including generic risks that have a broader effect than individual project elements.
+	+ Applying a quantitative method (e.g., Monte Carlo simulation or decision tree analysis) that incorporates multiple risks simultaneously.
+- Quantitative analysis results will be compared to the project plan to:
+	+ Estimate the overall project risk.
+	+ Answer questions like the probability of meeting the project's objectives, contingency reserve needed, and parts of the project contributing the most risk.
+	+ Identify individual risks contributing the most to overall project risk.
+- Quantitative methods help distinguish projects where quantified risks require more attention.
+The Perform Quantitative Risk Analysis process is dependent on the following critical success factors:
+
+1. Prior Risk Identification and Qualitative Risk Analysis: The Perform Quantitative Risk Analysis process should consider all significant risks identified during the Identify Risks and Perform Qualitative Risk Analysis processes.
+2. Appropriate Project Model: An appropriate model of the project should be used as the basis for quantitative risk analysis, using project schedules for time, line-item cost estimates for cost, decision trees for decisions in the face of uncertainty, and other total-project models.
+3. Commitment to Collecting High-Quality Risk Data: High-quality risk data may not be available in historic databases and should be gathered using expert judgment of those present, through interviews, workshops, and other means.
+
+Quantitative risk analysis is used to threaten objectives beyond the tolerance of the stakeholders, with vigorous risk responses aimed at protecting the most important objectives. A comparison of quantitative and qualitative risk analysis processes is presented in Figure 7-1. The Perform Quantitative Risk Analysis process occurs after the Identify Risks and Perform Qualitative Risk Analysis processes have been completed, using a prioritized list of identified risks. Quantitative risk analysis is sensitive to the completeness and correctness of the project model used.
+Success in gathering risk analysis data requires recognition and combat of biases such as cognitive and motivational bias. The Perform Quantitative Risk Analysis process derives overall project risk from individual risks using appropriate methods such as Monte Carlo simulation for cost and schedule, and decision trees for uncertain future events. Risks are specified at the level of detailed tasks or line-item costs and incorporated into a project model to calculate effects on objectives like schedule or cost. Interrelationships between risks should be addressed by correlating risks with common root causes or listing risks in a risk register and attaching it to several project elements.
+Relevant information about risk management:
+
+* Risk models can represent many risks that impact project objectives simultaneously, including both opportunities and threats.
+* Quantitative models calculate the effect of risks on project objectives, typically identified and quantified at a level of detail below the total project.
+* Probability models are used to address uncertainty, represented predominantly as probability of an event's occurring or as probability distributions for a range of outcomes.
+* Monte Carlo simulation tools can combine probability distributions of line-item costs or schedule activity durations.
+* Data gathering tools include assessment of historical data, workshops, interviews, or questionnaires to gather quantified information on the probability of a risk occurring, its potential impacts on cost or time, or relationships such as correlation between risks.
+* Quantitative analysis results are not typically available in standard deterministic project management methods.
+Relevant information about risk management from the provided section includes:
+
+* Quantitative risk analysis results consist of:
+	+ Probability of achieving project objectives such as finishing on time or within budget.
+	+ Amount of contingency reserve needed in cost, time, or resources to provide a required level of confidence.
+	+ Identity or location within the project model of the most important risks, as shown in sensitivity or criticality analyses.
+* The structure of a quantitative risk analysis is illustrated in Figure 7-2.
+* Iterative quantitative risk analysis is recommended, with the process being used periodically throughout the project. The frequency depends on events within the project and is determined during the Plan Risk Management process.
+* Project contingency reserve in time and cost should be reflected in the project's schedule and budget. Quantitative risk analysis provides information that may be used to modify the project plan. If an adjustment in scope is needed due to overall risk, scope changes are agreed upon, documented, and a new quantitative risk analysis is carried out.
+* Results of the Perform Quantitative Risk Analysis process should be documented.
+The contingency reserves calculated in quantitative project risk analysis are incorporated into the cost estimate and schedule to establish a prudent target and a realistic expectation for the project. Contingency reserves may also be used for capturing project opportunities. If the required contingency reserve exceeds available time or resources, changes in the project scope and plan may be necessary. The urgency of risk response may depend on the probability of achieving the plan's objectives or the amount of contingency reserve required.
+
+The Plan Risk Responses process determines effective response actions for individual risks and the overall project risk, taking into account stakeholders' risk attitudes, conventions specified in the Risk Management Plan, and any constraints and assumptions. The objective of the Plan Risk Responses process is to determine the set of actions that enhances the chances of project success while complying with applicable organizational and project constraints. Plans should be developed for addressing every risk the project team considers to be sufficiently important.
+Relevant information about risk management:
+
+* Risk response planning involves agreeing on actions to be taken and potential changes to budget, schedule, resources, and scope.
+* Contingent risk response actions should be executed at the optimum time, with trigger conditions described.
+* Responsibility for monitoring project conditions and implementing corresponding actions should be clearly assigned.
+* Each risk should be allocated to a risk owner and each risk response to a risk action owner.
+* Risk owners are responsible for ensuring the risk response is effective and planning additional risk responses if required.
+* Risk action owners are responsible for ensuring agreed-upon risk responses are carried out as planned, in a timely manner.
+* Roles of risk owner and risk action owner may be assigned to a single person.
+* Responses, when implemented, can generate additional risks (secondary risks), which need to be analyzed and planned for.
+* It is not feasible or desirable to eliminate all threats from a project; residual risks will remain after responses have been implemented.
+* Residual risks should be clearly identified, analyzed, documented, and communicated to all relevant stakeholders.
+* All approved, unconditional actions arising from risk response planning should be integrated into the project.
+Relevant information about risk management from the section includes:
+
+* Risk response processes should be carried out as part of normal project implementation, along with project change management, configuration control, project planning, budgeting, scheduling, resource management, and project communication planning.
+* Critical success factors for the Plan Risk Responses process include:
+	+ Communication: maintaining open and appropriate communication with stakeholders, disseminating plans, obtaining approval, and addressing organizational causes of risks.
+	+ Clearly defining risk-related roles and responsibilities: assigning a single risk owner and a single risk action owner for each identified risk and agreed-upon risk response.
+* Risk owners and risk action owners should be aware of their responsibilities and other stakeholders should understand and accept their needs and authority.
+* Management may take ownership of risks with political or organizational causes.
+* Risk-related contingency reserves should be approved and tracked by management.
+* Risk responses should be integrated into the project management plan, scheduled, and assigned for execution.
+* Each response should be planned in detail, with estimation of resources, costs, and duration, and updated budget and schedule.
+* Management should support the project manager in developing risk responses and authorizing corresponding resources.
+* Responses may be developed to address risks related by cause and effect or by common root cause.
+* Consideration of the interaction of risks and responses is needed, as one risk may affect the probability or impact of other risks.
+* A compromise may be required in deciding on the response strategy, as some proposed responses may be mutually exclusive or counterproductive.
+Relevant information about risk management from the provided text:
+
+* The goal of planning responses to risks is to control the potential effects of the risk treatment strategy.
+* Risk response plans should be appropriate, timely, cost-effective, feasible, achievable, agreed-upon, assigned, and accepted.
+* Proposed risk response plans should be assessed for consistency with organizational values, project objectives, and stakeholder expectations; technical feasibility; and the ability of the project team or risk action owners to carry out the corresponding actions.
+* Risk response planning should balance the overall impact of the response on project objectives and the improvement in the risk profile of the project.
+* Risk response planning should address both threats and opportunities, and should be carried out at a general, strategic level before developing detailed tactical approaches.
+* Strategic risk responses should be integrated into the project management plan, including the schedule, budget, and resources.
+The relevant information about risk management from the section includes:
+
+1. Risk response strategies should be developed for individual risks, sets of risks, and project-level risks, with the involvement of affected stakeholders.
+2. There are four risk response strategies for threats and opportunities:
+	* Avoid a Threat or Exploit an Opportunity: This strategy involves taking actions to ensure that the threat cannot occur or can have no effect on the project, or that the opportunity will occur and the project will be able to take advantage of it.
+	* Transfer a Threat or Share an Opportunity: This strategy entails transference to a third party that is better positioned to address a particular threat or opportunity.
+	* Mitigate a Threat or Enhance an Opportunity: This strategy aims to identify actions that will decrease the probability and/or the impact of a threat, and increase the probability and/or the impact of an opportunity.
+	* Accept a Threat or an Opportunity: This strategy applies when the other strategies are not considered applicable or feasible. Acceptance entails taking no action unless the risk actually occurs, in which case contingency or fallback plans may be developed ahead of time.
+3. These strategies need to be agreed upon by the entity that approves those strategies.
+Four risk response strategies for overall project risk are:
+
+1. Cancel the project if the level of risk remains unacceptable.
+2. Share the risk with the customer and supplier in a business structure.
+3. Re-plan the project, for example by modifying project priority, resource allocations, delivery calendar.
+4. Pursue the project despite a risk exposure that exceeds the desired level.
+
+Four categories of tools and techniques for the Plan Risk Responses Process are:
+
+1. Creativity tools to identify potential responses.
+2. Decision-support tools for determining the optimal potential response.
+3. Strategy implementation techniques designed to turn a strategy into action.
+4. Tools to transfer control to the Monitor and Control Risks process.
+
+Response Identification:
+
+- Risk response planning should involve subject matter experts and employ creativity techniques to explore all options.
+- Project planning and execution techniques are used to evaluate the potential effects of the various options on the project’s objectives.
+
+Response Selection:
+
+- Decision-support techniques are applied to select the best possible response from the set of potential responses for the risks being addressed.
+- Risk management involves identifying risks, performing quantitative risk analysis, and planning risk responses. This process is repeated until individual risks are acceptable and overall risk is within a predefined threshold.
+- Action planning involves turning chosen strategies into concrete actions and integrating them into existing plans. Actions can be unconditional or contingent on a trigger condition.
+- Ownership and responsibility assignment is necessary for risk management. A owner must be assigned for each risk and response action, with trigger conditions and responsibility assignment clearly defined.
+- Risk action owners should monitor their assigned risks, take agreed-upon actions, and provide relevant information on risk status or changes. They should also include measurable criteria for success of the response.
+Risk owners are responsible for assessing the effectiveness of risk actions, deciding if additional actions are needed, and keeping the project manager informed. The steps involved in planning risk responses are outlined in Figure 8-2. Risk response planning is based on information from the risk register, which is updated regularly with response-related information for each risk. Interested stakeholders should be able to access risk information to manage risks according to the risk response plan. Residual risks and their priorities are identified and recorded in the risk register.
+
+When developing the risk response plan, project implications such as costs, resource assignments, scheduling details, and changes to project documentation are evaluated for inclusion in a modified project management plan. Risk response planning is not complete until these changes are formally approved along with the additional risks they may carry.
+
+After defining risk responses and integrating them into the project management plan, the individual and overall residual risks related to this plan are evaluated to determine if additional response planning is required. This evaluation should provide an estimate of the expected post-response situation.
+The Monitor and Control Risks process aims to:
+
+- Track identified risks and monitor residual risks
+- Identify new risks
+- Ensure that risk response plans are executed at the appropriate time and evaluated for effectiveness throughout the project life cycle
+- Review the effectiveness of all Project Risk Management processes for current and future projects
+- Monitor trigger conditions for contingent responses and ensure timely execution of corresponding actions
+- Include and define all approved unconditional response actions in the current project management plan and take appropriate action if necessary
+
+The action owner is responsible for monitoring trigger conditions and executing corresponding actions in a timely manner. The first action of risk monitoring and controlling is to ensure that all agreed-upon actions are included and defined in the current project management plan.
+The risk owners and risk action owners need to be informed of any changes that affect their responsibilities. Regular communication between them and the project manager is necessary to ensure that stakeholders accept accountability for controlling specific risks, track associated trigger conditions, and carry out agreed-upon responses in a timely manner. The Plan Risk Responses process includes a mechanism for measuring the effectiveness of responses. Risk reassessment should be performed periodically or in response to project events, including the occurrence of major or unexpected risks, analysis of complex change requests, phase end reviews, project re-planning or major plan elaboration, and periodic reviews to ensure information remains current. In the event of major organizational changes, risk management planning may need to be revisited prior to reassessing risks. Regular audits should be performed to determine strengths and weaknesses in risk management.
+Relevant information about risk management:
+
+- An integrated analysis of the risk management process should be conducted at the end of the project, focusing on long-term process improvements.
+- This analysis should consolidate the findings of periodic audits to identify lessons applicable to a large proportion of the organization's future projects, such as appropriate levels of resources, adequate time for analysis, use of tools, and level of detail.
+- At project closure, the project manager should ensure that a description has been given of the closure of every risk in the risk register, including whether it did not occur, occurred and contingency plan was invoked, or occurred and had an impact on the project scope (time, cost, and quality).
+- The output of the audit of the risk management process should be consolidated with specific information with respect to the project's experience of risks.
+- Any generally applicable guidelines for the organization should be highlighted and potential actions proposed for applying them, which can lead to an update to the corresponding organizational process assets.
+- Critical success factors for the Monitor and Control Risks Process include maintaining risk awareness throughout the project.
+- Integrating Risk Monitoring and Control with Project Monitoring and Control is a critical success factor.
+The project management plan should include actions for monitoring and controlling project risk, which are adjusted during the planning cycle based on risk response decisions. The project schedule should include all agreed-upon response-related actions, which are carried out as part of project execution and tracked accordingly.
+
+Risk response planning defines a set of actions to be carried out as part of the project schedule, as well as actions dependent on predefined trigger conditions. Checking for specifically defined risks and their conditional responses is the responsibility of the risk action owner, in close collaboration with the risk owner.
+
+Risk management reports should be regularly included in status meeting agendas to ensure team members remain aware of risk management's importance and its integration into project management decisions. The project's senior-level sponsor should require regular reports on risks and planned responses to ensure stakeholders are aware of the importance of focusing on risk. Stakeholders' perception of risk management effectiveness is influenced by the way risks are handled as they occur and by the number or characteristics of such events.
+- Regular communication of risk-related information to stakeholders is necessary, with communication tailored to the needs of each stakeholder.
+- Tools and techniques are required for the Monitor and Control Risks process, which include:
+  - Monitoring and controlling individual risks and overall risk.
+  - Managing contingency reserves, including time-related and cost-related reserves. Tools are needed to assess the sufficiency of these reserves and to identify trends and forecast future outcomes.
+  - Tracking trigger conditions and corresponding metrics against the project baseline or specified thresholds.
+  - Tracking the effectiveness of risk responses on the project's overall level of risk.
+* A set of quality metrics such as degree of variation from the baseline should be tracked and recorded to monitor the execution of risk-related plans and processes.
+* All relevant information relating to risk management from start to finish of the project should be recorded, including:
+	+ Whether each identified risk or type of risk occurred, and if so, when and how often.
+	+ Relevant data for each risk: impact, effectiveness of detection and response, and any unplanned, additional actions.
+	+ Effectiveness of avoidance, exploitation, transfer, sharing, mitigation, and enhancement actions.
+	+ Information about unexpected or undocumented risks.
+	+ Occurrence of accepted threats or opportunities.
+	+ Consolidated information on the level of effort expended.
+	+ Costs and benefits to the project of risk management activities.
+* Information should be archived and indexed for easy review during the project, at closure, and for future projects.
+The Practice Standard for Project Risk Management provides guidelines on the mechanics of project risk management, including the basics, steps, and usage guide. It is applicable to one or more phases within a project and may not necessarily mirror the Knowledge Areas within the PMBOK Guide – Fourth Edition. The standard includes information on what the risk management process is and does, why it is significant, how to perform it, when it should be performed, and who should perform it. It includes information that is accepted and applicable for most projects most of the time within the project management community. The standard may include processes that are restricted or applicable to one industry, country, or companion profession as an appendix for informational purposes.
+* Examples or templates of risk management should include a discussion of their strengths and weaknesses.
+* They should be aligned with the relevant information in the risk management standard or its appendix and placed in proximity to that information.
+* Each practice standard, including risk management, will be consistent with the PMBOK® Guide – Fourth Edition and more prescriptive than the guide.
+* Risk management standards will be aligned with or reference other practice standards as needed.
+The Practice Standard for Project Risk Management, developed by the Project Management Institute (PMI), focuses on single project risk management. It provides clear, complete, and relevant information that is consistent with the PMBOK® Guide – Third Edition, expanding but not contradicting the concepts and techniques related to Project Risk Management. The standard has been reviewed and updated by the Practice Standard for Project Risk Management Project Team and is written for project management practitioners and other stakeholders. It describes the unique processes of Project Risk Management and includes in an appendix examples and templates of specific Project Risk Management processes, tools, and/or techniques, with discussions of their strengths and weaknesses. The PMBOK® Guide – Third Edition Glossary is used as the starting point for terminology.
+• Risk management is not practiced well on many projects, so a project team aimed to identify and apply best practices.
+• The project core team for developing the risk management standard consisted of Dr. David Hillson PMP, Kik Piney, and Kris Persun.
+• The scope of the risk management standard was expanded to be consistent with the PMBOK ® Guide – Fourth Edition.
+• The exposure draft of the standard received 849 comments, and the team accepted 57% of those comments.
+• The final draft of the Practice Standard for Project Risk Management was submitted for official ballot to 28 members of the PMI Standards Program Consensus Body.
+The Practice Standard for Project Risk Management received 23 ballots returned with 22 affirmative and 1 affirmative with comment votes during the balloting period closed on 25th April 2009. The affirmative with comment suggested future revisions and improvements to the comment adjudication process.
+
+The Project Core Team of the Practice Standard for Project Risk Management included:
+
+* Cynthia Ann Berg, PhD, PMP (Project Manager)
+* David T. Hulett, PhD, Deputy Project Manager
+* Dr. David Hillson FRSA, FIRM
+* Kristine Persun, MA, PMP
+* Crispin “Kik” Piney, BSc, PMP
+* Kristin L. Vitello (Standards Project Specialist)
+* Nan Wolfslayer, AStd (Standards Compliance Specialist)
+
+Significant contributors to the Practice Standard for Project Risk Management were Jeannette Horne.
+
+Additional individuals who participated in the development of the Practice Standard for Project Risk Management were not specified in terms of their contributions.
+The Practice Standard for Project Risk Management is a document developed by a team of professionals including Archie Addo, PMP, PhD, Priumvada Agarwal, PMP, Asif M Ahmad, PMP, Amr Nabil Ahmed, PMP, MSc, Jose Correia Alberto, MEng, CITP, Salvador Alvarez, PMP, Carlos Eduardo M. F. Braga, PMP, Valerie Claire Brasse, PMP, Adrian Busch, PMP, MBA, John J. Byrne, DBA, PMP, Eduardo Cadena Franco, Caron William G. Chadick, DM, PMP, Souray Chakraborty, Harshavardhan Chakravarti, BS, Shanthi Chandrasekar, Noman Zafar Chaudry, PE, PMP, Vijay Chauhan, MBA, PMP, Subrahmanyam Chinta, VN, PMP, Carolyn Chomik, Joan F. Church, Glenda Clark, Lorri Cline, MBA, PMP, John D. Corless, PhD, Anthony R. Corridore, PMP, Marco Aurélio Danelon, PMP, Karel de Bakker, MA, PMP, Thijs De Jong, Alfredo Del Cano, Peter B. de Zouza Mello, SPS, PMP, Cheryl L. Dennis, Raveesh Dewan, PMP, MBA, Ricardo Jose do Rego Barros, PMP, John David Driessnack, Matt Dubois, Jason Eddinger, PMP, Maliha Elahi, MSc, PMP, Joel Erickson, Rodrigo Fernandes Espirito Santo, Giovanni Fanduiz, Geneviève Faragó, PMP, Mario Fiallo Carranco, Leslie Fiedler, Eduardo Fleischer, Kirby Fortenberry, PMP, Lynn Francis, Michelle L. Franklin, PMP, Tracy Fritz, Andrew Fry, CMA, PMP, Kamlesh Gandhi, PMP, PQs, Nélio Gaspar, MSc, PMP, Tina Gilrein, PMP, MPM, Silvio Hernan Giraldo, PMP, CBCP, Vikram Godboley, Vivek Goel, PMP, Francisco Gomez, Serge Goncharov, PMP, PgMP, Ronald R.Goodwin, PMP, Priyesh Gopalakrishnan, Robert Grant, Steve.
+
+The standard provides guidance on risk management practices for project managers. It includes the following key points:
+
+* Risk management should be an integral part of project management, starting from the project planning phase.
+* The project manager should identify and analyze potential risks and develop a risk management plan.
+* The risk management plan should include risk identification, risk assessment, risk response planning, and risk monitoring and control.
+* The project manager should use a variety of risk management techniques, such as probability and impact analysis, expected monetary value analysis, and sensitivity analysis.
+* The project manager should communicate the risk management plan and any updates to stakeholders.
+* The project manager should review and update the risk management plan regularly throughout the project.
+
+The standard also includes a number of tables and figures, such as:
+
+* Table 1-1: Risk Management Process Inputs and Outputs
+* Table 3-1: Risk Identification Techniques
+* Table 3-2: Risk Assessment Techniques
+* Table 3-3: Risk Response Strategies
+* Figure 4-1: Risk Monitoring and Control Process
+* Figure 5-1: Risk Management Plan Template
+
+It is important to note that the figures and tables might not be fully visible in the provided text, but they are an integral part of the standard and provide specific details on the risk management process.
+The Practice Standard for Project Risk Management by Project Management Institute provides guidance on risk management in projects. Here are some relevant details about risk management from the section, excluding headers, page numbers, and irrelevant content:
+
+* The risk management process includes risk identification, analysis, response planning, and monitoring and control.
+* The risk management plan should include the project's risk management strategy, roles and responsibilities, budget, and schedule.
+* Risk identification techniques include interviewing stakeholders, brainstorming, and using checklists.
+* Risk analysis techniques include qualitative and quantitative analysis, such as expected monetary value analysis.
+* Risk response planning techniques include risk avoidance, transference, mitigation, and acceptance.
+* Risk monitoring and control techniques include tracking identified risks, reviewing risk metrics, and updating the risk management plan.
+* The risk management process should be integrated with the overall project management process.
+* The project manager should consider risks throughout the project lifecycle, from initiation to closure.
+* The organization should provide resources and support for the risk management process, including training and tools.
+* The project team should be involved in the risk management process and should understand their roles and responsibilities.
+* The project manager should communicate risk information to stakeholders in a timely and effective manner.
+
+The document also provides a template for a risk management plan, which includes the following sections:
+
+* Introduction
+* Risk Management Strategy
+* Roles and Responsibilities
+* Budget and Schedule
+* Risk Identification
+* Risk Analysis
+* Risk Response Planning
+* Risk Monitoring and Control
+* Risk Management Reporting
+* Appendices.
+The text provided does not contain specific information about risk management practices, figures, or examples. However, it does list many individuals who were involved in the development and review of the "Practice Standard for Project Risk Management" by the Project Management Institute (PMI). This suggests that the standard contains best practices and guidelines for managing risks in projects, but the specific content is not provided in this section.
+The Practice Standard for Project Risk Management is a publication by the Project Management Institute (PMI). The following information pertains to risk management:
+
+* Syed Asad Jawed, C.C.E and Carl L. Pritchard, PMP, PMI-RMP are involved in the development of the Practice Standard for Project Risk Management.
+* The standard provides guidance on risk management processes and practices.
+* It is based on the PMI's A Guide to the Project Management Body of Knowledge (PMBOK® Guide) and supports the practice of project risk management.
+* The standard includes a risk management framework, which consists of processes and activities for identifying, analyzing, planning for, tracking, and responding to project risks.
+* The framework includes a risk management plan, which documents the approach, resources, and responsibilities for managing project risks.
+* The standard also includes a risk register, which is a document that lists identified risks, their characteristics, and the current risk response plan.
+* The standard is intended to be used by project managers, risk management professionals, and other stakeholders involved in project risk management.
+* The standard can be applied to any type or size of project.
+* The standard is organized into the following sections: introduction, risk management framework, risk management processes, and appendices.
+* The risk management processes include risk identification, risk analysis, risk response planning, risk monitoring and control, and risk closure.
+* The standard includes a discussion on risk categories, such as technical, external, organizational, and project management risks.
+* The standard also includes a discussion on risk assessment methods, such as qualitative and quantitative risk analysis.
+* The standard provides examples of risk response strategies, such as avoidance, transference, mitigation, and acceptance.
+* The standard includes a discussion on risk monitoring and control, including risk tracking and risk reporting.
+* The standard also includes a discussion on risk closure, including verifying the effectiveness of risk responses and updating the risk register.
+* The appendices of the standard include templates and examples of risk management documents, such as a risk management plan and a risk register.
+* The standard includes a glossary of risk management terms.
+* The standard was published in 2009.
+
+Note: The list of names are members of the PMI Standards Member Advisory Group (MAG) who served during the development of the Practice Standard for Project Risk Management.
+The text provided does not contain specific information about risk management practices, figures, or examples. Here are some general concepts about risk management from the Project Management Institute (PMI):
+
+1. Risk management is a systematic process for identifying, analyzing, and responding to project risks.
+2. It's an ongoing process that should be integrated into all phases of a project.
+3. Risk management involves the entire project team, stakeholders, and sometimes even external experts.
+4. PMI has developed a Practice Standard for Project Risk Management, which provides a comprehensive framework for managing project risks.
+
+However, the text mainly focuses on acknowledging the staff contributors to the Practice Standard for Project Risk Management and does not provide specific information about risk management practices.
+- Risk Management Planning involves the use of Planning Meetings and Analysis, Involvement of core team members, Prior risk management plan templates, Prior stakeholder analysis, and Existing organizational guidelines for risk management.
+- The Risk Management Plan serves the purpose of outlining the approach to managing risks throughout the project's lifespan and typically includes the following elements:
+	+ Risk Management Strategy
+	+ Roles and Responsibilities
+	+ Risk Identification Methods
+	+ Qualitative and Quantitative Risk Analysis Methods
+	+ Risk Response Strategies
+	+ Risk Monitoring and Control Methods
+	+ Reporting and Communication Processes
+	+ Plan Updates and Maintenance.
+Risk Management:
+
+• Thresholds for variance, prioritization of project objectives, and specific criteria for "unacceptable threats" and "un-missable opportunities" defined.
+• Impact scales, probability scales, PxI matrices, and degree of confidence (e.g. 80th percentile) used in quantitative risk analysis.
+• Risk management activities linked to project management methodology and other project management processes.
+• Risk taxonomy/risk breakdown structure defined, with a format for a fully defined risk statement description.
+• Key deliverables for risk management outlined.
+• Roles, responsibilities, and levels of authority for risk management, along with rules of escalation, established.
+• Budgeting for risk management activities adapted to the complexity and sensitivity of the project.
+• Scheduling of risk management activities in the project schedule, specifying when certain actions or reviews need to be carried out.
+• Governance-related rules of reporting and disclosure for risk management established.
+• Use of tools such as a risk database, with specific requirements in terms of system resources.
+• Risk register and risk status reports used in communications planning.
+• Provision of templates for the risk management plan, including a formal structure for a risk.
+Risk management information:
+
+- Risk breakdown structure is used for categorizing risks.
+- Probability and impact scales are defined by project objectives for qualitative risk analysis.
+- Risk prioritization and selection guidelines are provided, which can be used in Perform Qualitative Risk Analysis, Perform Quantitative Risk Analysis, and Plan Risk Response Planning.
+- A standard structure for risk description should be specified, such as "Because of <one or more causes>, <risk> might occur, which would lead to <one or more effects>".
+- Risk prioritization and selection guidelines are linked to project objectives, which may be given numerical "weights" to create a single weighted sum over all objectives for each risk.
+- Identify Risks is carried out to develop a comprehensive list of all knowable uncertainties that could have an effect on the project’s objectives.
+
+Technique for Identify Risks:
+
+- Assumptions & Constraints Analysis
+- Strength: Simple
+
+Note: The figures and exact definitions of the terms are not provided in the section.
+Risk management can be based on assumptions and constraints listed in the project charter. It is important to generate a comprehensive list of assumptions and constraints to identify project-specific risks. Brainstorming can be used to generate ideas and involve key stakeholders, but it may be difficult to arrange and expensive. It can also be prone to groupthink and biased results if dominated by a strong person. Good facilitation, attendance of a representative group of stakeholders, and commitment to honesty are necessary for effective brainstorming.
+
+Cause and effect (Ishikawa) diagrams can promote structured thinking and effectively select critical impacts through the use of sensitivity analysis. However, the diagram can quickly become over-complex.
+
+Checklists can capture previous experience and present a detailed list of risks, but they can also become unwieldy and may only include threats, missing opportunities. Regular maintenance and use of structure, such as a risk breakdown structure (RBS), can assist in effective use of checklists.
+
+The Delphi technique can capture input from technical experts and remove sources of bias, but it is limited to technical risks and dependent on the actual expertise of experts. It may also take a longer time than available due to iterations of experts' inputs. Effective facilitation and clear definition of scope are necessary for the Delphi technique. It can expose detailed project-specific risks and requires no specialist tools, but it is limited to risks contained in the project.
+Relevant information about risk management:
+
+* FMEA/Fault Tree Analysis is a tool that focuses on threats and produces an estimate of overall reliability using quantitative tools. It requires expert tools not generally available to non-experts. (Chapter 7)
+* Force Field Analysis creates a deep understanding of factors that affect project objectives and captures previous experience, allowing benchmarking against external organizations. However, it is limited to what has previously happened and excludes project-specific risks.
+* Influence diagrams expose key risk drivers and can generate counter-intuitive insights. They require disciplined thinking and it may not always be easy to determine appropriate structure.
+* Interviews address risks in detail, generate engagement of stakeholders, and allow for different levels of competence in common language. They require good interviewing and questioning skills, an open relationship between interviewer and interviewee, and preparation. They may raise non-risks, concerns, issues, and worries, so filtering is required.
+* Nominal Group Technique encourages and allows all participants to contribute and provides an ideal base for affinity diagramming (grouping by risk categories for use in the Risk Breakdown Structure). It is to a large extent auto-documenting.
+Risk management involves:
+
+- Conducting post-project reviews and utilizing historical information to prevent repeating past mistakes or missing opportunities (Chapter 6).
+- Leveraging previous experience to enhance the organizational process assets.
+- Information about past risks may be incomplete, only including details of occurrence and not successful resolution or ineffective strategies (Chapter 6).
+- A well-structured project lessons learned database and participation of previous project team members can aid in risk identification.
+- Using prompt lists to ensure coverage of all types of risk and stimulate creativity.
+- The choice of prompt list should be relevant to the project and its environment.
+- The Risk Breakdown Structure (RBS) offers a framework for other risk identification techniques and tests for blind spots or omissions.
+- Root-cause analysis allows identification of additional, dependent risks and helps the organization identify risks related to common root causes. It can also serve as a basis for development of pre-emptive and comprehensive responses.
+
+Note: The figures and headers have been removed, and the text has been paraphrased to focus on the relevant information about risk management.
+Relevant information about risk management:
+
+* Inability to identify root causes of risks:
+	+ Can oversimplify and hide the existence of other potential causes
+	+ There may be no valid strategy available for addressing the root cause once it has been identified
+* SWOT Analysis:
+	+ Ensures equal focus on both threats and opportunities
+	+ Offers a structured approach to identify threats and opportunities
+	+ Focuses on internal (organizational strengths and weaknesses) and external (opportunities and threats)
+	+ Focuses on internally generated risks arising from organizational strengths and weaknesses, excludes external risks
+	+ Tends to produce high-level generic risks, not project-specific
+	+ Requires strict adherence to the technique to avoid confusing the four SWOT perspectives
+* System Dynamics:
+	+ Exposes unexpected inter-relations between project elements (feedback and feed-forward loops)
+	+ Can generate counter-intuitive insights not available through other techniques
+	+ Produces overall impacts of all included events and risks
+	+ Requires specialized software and expertise to build models
+	+ Focuses on impacts but difficult to include the concept of probability
+	+ Dependent on understanding of feedback, competence in applying tools and understanding their output, quality of the system model, and accuracy of input data collected for the specific project.
+
+Note: CSFs for Effective Application and WBS Review are not directly related to risk management and have been excluded from the relevant information.
+Relevant information about risk management:
+
+- Risk management excludes external risks or those not specifically related to Work Breakdown Structure (WBS) elements.
+- A good WBS aids in identifying and managing risks.
+- D.2.1 Techniques for risk identification include:
+  - D.2.1.1 Assumptions and Constraints Analysis: This technique requires listing assumptions and constraints for the project, testing them, and generating a risk if they could prove false and affect project objectives. An example of this technique is presented in Figure D1.
+  - D.2.1.2 Brainstorming: This method is commonly used in a facilitated risk identification workshop, often with risk categories or a risk breakdown structure. Active participation of relevant stakeholders and careful management of group dynamics are important.
+  - D.2.1.3 Cause and Effect (Ishikawa) Diagrams: This technique presents causes contributing to a given outcome in diagrammatic form. For risk identification, the outcome should be stated as an effect on a project objective.
+
+Figure D1 has fields for description and analysis results. It is an example of a Constraint Analysis.
+
+The document is from the Project Management Institute's Practice Standard for Project Risk Management, ©2009.
+Risk identification in project management includes distinguishing between risks and issues, and utilizing techniques such as:
+
+- Cause and effect (Ishikawa) diagrams:
+	+ Example risk: "staff leaving the project"
+	+ Main causes: Environment, Ambition, Career Prospects, Satisfaction, Remuneration
+- Checklists:
+	+ Structured around a risk breakdown structure
+	+ Includes both threats and opportunities
+	+ Example structure: Category, Subcategory, Specific Risks, and Effect
+- Delphi Technique:
+	+ Uses a facilitated anonymous polling of subject matter experts to identify risks
+	+ Generates a consensus of experts in a few iterations
+- Document Review:
+	+ Risks can be identified through review of project documentation including the project charter, statement of work, contract terms and conditions, subcontracts, technical specifications, and regulatory requirements.
+Risk management methods include:
+
+- Failure Modes and Effects Analysis (FMEA) or Fault Tree Analysis to identify elements that can cause system failure and probability of failure. It is useful in the design and engineering phase of the project to increase system reliability.
+- FMEA example: analysis of possible causes of a crash at a main road junction.
+- Fault Tree Analysis example: indicates where the system can be made more reliable.
+- Force Field Analysis to identify driving and restraining forces affecting project objective. Risks are identified as uncertain events or conditions that would lead to a change in the strength of the identified forces.
+- Force Field Analysis example: shows the balance of forces for and against change.
+Industry Knowledge Base is a checklist used for risk identification.
+
+Influence Diagrams represent a project situation visually, showing main entities, decision points, uncertainties, outcomes, and relationships between them. They can identify risks when combined with sensitivity analysis or Monte Carlo simulation.
+
+Risk Identification Interviews should be conducted with all main stakeholders by a skilled, independent interviewer using a structured agenda. A risk breakdown structure, checklist, or prompt list can be used as a framework.
+
+Nominal Group Technique is an adaptation of brainstorming where participants share and discuss all issues before evaluation, with each participant participating equally in evaluation.
+
+Post-Project Reviews, Lessons Learned, and Historical Information can provide relevant risk information for a current project by reviewing databases of risks from previous similar situations.
+
+Prompt Lists are a set of risk categories that can be used to identify risks.
+Risk identification in project management can be stimulated using prompt lists such as:
+
+* PESTLE: Political, Economic, Social, Technological, Legal, Environmental
+* TECOP: Technical, Environmental, Commercial, Operational, Political
+* SPECTRUM: Socio-cultural, Political, Economic, Competitive, Technology, Regulatory/legal, Uncertainty/risk, Market
+
+These lists can be used as a framework for techniques such as brainstorming or risk interviews.
+
+A risk identification questionnaire can be presented as a checklist with possible risks shown in question format or used to present headings from a prompt list.
+
+A risk breakdown structure (RBS) is a hierarchical framework of potential sources of risk to a project, with a partial example showing categories such as:
+
+* Project management
+* Contract
+* Design
+* External dependencies
+
+Root cause analysis seeks to identify basic causes of risks.
+Root Cause Analysis is a technique used for risk identification that can reveal more fundamental forces causing risks and common sources of multiple risks, leading to broad-reaching risk response strategies. It is important to distinguish between risks (uncertain causes of impact) and issues (certain causes of impact). An example of Root Cause Analysis identified rework, extra cost, schedule slips, low team morale, customer mistrust, and repeated audits as risks, which were traced back to a common root cause of starting later phases of a project before earlier ones were sufficiently mature.
+
+SWOT Analysis is a technique used in strategic decision making that can be adapted for risk identification. It identifies four characteristics of a given situation: strengths, weaknesses, opportunities, and threats. Strengths and weaknesses relate to the characteristics of the organization conducting the project, while opportunities and threats identify project risks. This technique is useful for identifying internally-generated risks arising from within the organization.
+
+System Dynamics (SD) is a technique that represents entities and can be used to identify risks within a project situation. It is a particular application of influence diagrams and can reveal the behavior of complex systems over time, helping to identify risks and understand the relationships between different risks.
+System Dynamics (SD) analysis can be used to reveal feedback and feed-forward loops which lead to uncertainty or instability in a project, and can show the impact of risk events on overall project results such as cost or schedule. Analysis of changes in the SD model or assumptions can indicate the system’s sensitivity to specific events, some of which may be risks.
+
+The Work Breakdown Structure (WBS) can be used as a framework for risk identification techniques such as brainstorming, risk interviews, checklists or prompt lists.
+
+Perform Qualitative Risk Analysis prioritizes risks for further analysis or handling based on their probability and impact characteristics. Organizations tend to apply resources to those designated as “high risk.”
+
+Techniques for Perform Qualitative Risk Analysis include Root Cause Analysis, which addresses both the degree of uncertainty and the effect on project objectives. However, it can be difficult to calibrate if there is no historical database of similar events.
+
+In terms of probability, terms such as “probable” and “almost certain” can be used, but there is a lack of specific figures or details on how these probabilities are calculated or estimated.
+Relevant information about risk management:
+
+- Agreed definitions of probability and impacts should reflect stakeholders' risk tolerances and thresholds.
+- Consistent use of these definitions across all identified risks.
+- Probability and Impact Matrix (P-I Matrix) helps prioritize project risks for further analysis or risk response, reflecting the organization’s level of risk tolerance.
+- The P-I matrix may not explicitly handle other factors such as urgency or manageability that may partly determine a risk’s ranking.
+- Organizations should carefully assess the combinations of probability and impact to qualify a risk as low, moderate, or high risk, reflecting the organization’s risk attitude.
+- Definitions used to designate the levels of impact (L, M, H) for each objective should represent the same level of impact as perceived by the organization’s management or project stakeholders.
+The Practice Standard for Project Risk Management discusses the Analytic Hierarchy Process (AHP) which helps in developing a relative weighting for project objectives based on the organization's priorities for time, cost, scope, and quality. It also helps in creating an overall project priority list of risks based on their priority with respect to individual objectives. However, organizational decisions are often made by committees and individuals may not agree on relative priority among objectives, and it can be difficult to gather information about pair-wise comparison of the objectives from high-level management.
+
+In root-cause analysis, the probability of a risk occurring can be specified in several different ways, one common way is to assign levels of risk probability by ranges of probability. This approach allows subject matter experts to assess a risk's probability within a range rather than as a specific value. For example, in a 5x5 Probability and Impact Matrix, probability ranges can be more tightly defined at low levels of probability. The levels of impact definitions are very project-specific and the values used to specify the level of impact from very low to very high should be higher as they move from very low to very high for a specific objective. The levels are defined by the organization as causing the same amount of pain or gain to the project for each level across objectives. If a risk's possible impact is uncertain and could be assigned to more than one level, the organization should define how to handle such cases.
+Risk management involves assessing the impact and probability of risks to project objectives. Impact levels can be defined and assigned to represent the expected or average impact, or can be flagged for extra analysis to reduce uncertainty. Probability and impact (P-I) matrices are used to sort risks into high, moderate, or low-risk classes. The P-I matrix is based on the combination of probability of occurrence and impact on project objectives, using definitions tailored to the specific project. The Analytic Hierarchy Process (AHP) is a method used to calibrate preferences for achieving the different objectives of a project, such as time, cost, quality, and scope.
+The Analytic Hierarchy Process (AHP) is a prioritization method used to determine the relative weight of project objectives. It results in weights that sum to 1
+Relevant information about risk management:
+
+* Decision tree helps select the decision that provides the highest Expected Monetary Value (EMV) or expected utility to the organization.
+* Probabilities of occurrences can be difficult to quantify, especially in the absence of historical data.
+* The best decision may change with relatively plausible changes in the input data, meaning that the answer may not be stable.
+* The organization may not make decisions based on a linear EMV basis but rather on a non-linear utility function; utility functions are difficult to specify.
+* Careful structuring of the decision tree is necessary, considering all alternative decisions that are materially different. Decision trees should be specified completely.
+* Access to high-quality data about probability, cost, and reward for the decisions and events specified using historical information or judgment of experts is required.
+* Use of a utility function that has been validated with the organization's decision makers is needed.
+* Decision tree analysis of complicated situations requires specialized software.
+* Availability and understanding of the specialized software needed to structure and solve the decision tree are necessary.
+* EMV allows the user to calculate the weighted average (expected) value of an event that includes uncertain outcomes.
+* EMV incorporates probabilities and outcomes to calculate the expected value of a decision.
+Risk management involves the assessment of the probability and impact of uncertain events. Expected Monetary Value (EMV) is a simple calculation used to determine the expected value of uncertain events. However, EMV only provides the expected value of uncertain events and may not provide sufficient information for risk decisions. In situations where more information is needed, Monte Carlo simulation may be a more appropriate tool as it allows all specified risks to vary simultaneously and provides quantitative estimates of overall project risk. Monte Carlo simulation can answer questions such as the likelihood of the base plan to be successful, the amount of contingency in time and cost needed to achieve a desired level of confidence, and which activities are important in determining the overall project risk.
+
+To effectively apply EMV and Monte Carlo simulation, it is important to identify all possible events that need to be included in the calculation, have access to historical data or expert opinions on the values of probability and impact, and understand the difference between EMV and the output of simulation tools. The quality of the input data for Monte Carlo simulation depends heavily on the expert judgment and the effort and expertise of the risk analyst. Monte Carlo simulation may be resisted by management as being unnecessary or too sophisticated compared to traditional project management tools.
+Risk management requires the use of specialized software which must be acquired and learned. The software produces unrealistic results unless input data include both threats and opportunities. A good project model is essential, which can be created using typical models such as cost estimates and schedules. Summary-level models such as project schedules and cost estimates are also used. Access to high-quality data on risks is necessary, including the risk’s impact on project elements, uncertain activity durations, and uncertain cost elements. The credibility of the data depends on its quality. Correct simulation tools should be used. Post-project reviews, lessons learned, and historical information are useful in risk management (see Chapter 5).
+
+Decision tree analysis is a risk management technique performed using specialized software. The software allows the user to specify the structure of the decision with decision nodes, chance nodes, costs, benefits, and probabilities. The user can evaluate the different decisions using linear utility functions based on Expected Monetary Value (EMV) or on non-linear utility functions of various shapes. An example of a decision tree for choosing between an experimental technology vs. Commercial Off the Shelf (COTS) technology is provided (Source: Precision Tree from Palisade Corporation).
+
+Expected Monetary Value (EMV) is a risk management calculation that involves a simple calculation of a value such as weighted average or expected cost or benefit when the outcomes are uncertain.
+Relevant information about risk management:
+
+- Identification of reasonable alternative outcomes, estimation of their probabilities and values, and calculation of Expected Monetary Value (EMV) using these probabilities.
+- Monte Carlo Simulation: a detailed, computer-intensive simulation approach to determine the value and probability of possible outcomes of a project objective such as project schedule or cost estimate. It computes the schedule or cost estimate many times using inputs drawn at random from ranges specified with probability distribution functions.
+- The simulation builds a histogram of possible project outcomes and their relative probability, and cumulative probability from which to compute desired contingency reserves of time or cost.
+- Examples of output of schedule and cost risk results are shown in Figures D16 and D17.
+- Monte Carlo Analysis of Finish Dates in Quantitative Schedule Risk Analysis: example histogram from Monte Carlo Simulation of a project schedule (Figure D16).
+- Monte Carlo Analysis of Project Cost at Completion in Quantitative Cost Risk Analysis: example histogram from Monte Carlo Simulation of a project cost estimate (Figure D17).
+- Plan Risk Responses integrates identified risks and their characteristics into the project management plan, satisfying the risk appetites and attitudes of key stakeholders.
+- Techniques for Plan Risk Responses include:
+	+ Brainstorming: generates rapid and focused responses, improves image of professionalism, but trigger conditions must be clearly defined and tracked.
+	+ Check Lists: also in Chapter 5, but strengths and weaknesses not specified.
+	+ Contingency planning: ensures actions are available before significant events occur, provides a rationale for reserves, makes the reserve visible and liable to be reduced, but can give a false sense of confidence and must have clear trigger conditions.
+	+ Contingency reserve estimation: provides a rationale for reserves, makes the reserve visible and liable to be reduced, but can be reduced arbitrarily. Policy for reserve management should be agreed with sponsor and senior management.
+	+ Critical Chain Project Management (CCPM): addresses schedule risk by the addition of "feeding buffers" to absorb statistical variations on the durations of non-critical path activities, controls the amount of "work in process" and mitigates financial risk.
+• Thresholds can be used as trigger conditions for specific response actions.
+• Special software is available for creating and managing buffers.
+• Buffers can deal with predictable common cause variation but may be inadequate for special causes.
+• Indicative start and end dates can disturb management expectations and cause problems for setting intermediate milestones.
+• There is a weakness in the assumption that base estimates represent 50% confidence levels.
+• A fully resourced project schedule is required.
+• Understanding and acceptance by management and project team members are needed that activity dates are indicative rather than definite.
+• Equitable sharing of the buffers by all team members is necessary.
+• Decision Tree Analysis allows calculation of the expected monetary values of various response options.
+• Delphi Technique involves selected experts in the process.
+• Expected Monetary Value (EMV) provides an estimate of the potential benefit of a risk response.
+• Industry knowledge base has standard responses for some risks.
+• Interviews with experienced practitioners can provide new ideas and act as “devil’s advocate” for potential responses.
+• Nominal Group Technique is useful as a creativity technique for generating novel responses.
+• Multi-criterion selection techniques provide a means of selecting the responses that best support the full set of project objectives.
+Risk management involves:
+
+* Setting project success criteria with agreed weights.
+* Leveraging previous experience and using post-project reviews, lessons learned, and historical information.
+* Stimulating creativity and evaluating the potential effect of response plans on overall project risk through quantitative risk analysis.
+* Identifying and addressing the fundamental causes of risks for efficient and effective responses using root-cause analysis.
+* Scenario analysis to view the potential effect of relevant risks and corresponding response strategies, and identifying secondary risks.
+* Contingency planning for specific (normally high-impact) risks, including assembling a team to develop a response plan and documenting it with supporting information for approval at project management or sponsor level.
+* Estimation of contingency reserve for all conditional response plans.
+Relevant information about risk management:
+
+* Residual risks can affect the schedule, budget, and/or performance objectives of a project.
+* An amount should be set aside to allow for these residual risks, consisting of two components:
+	1. Those to cover specific, approved conditional responses (e.g. contingency plans)
+	2. Those to address unspecified or passively accepted risks
+* Quantitative methods can be used to determine the amounts to be set aside, such as decision trees for conditional responses and simulation for unspecified risks.
+* These reserves are tracked and managed in Monitor and Control Risks.
+* Multi-Criteria Selection Techniques: This process involves using a spreadsheet to calculate the weighted scores of options based on a predefined set of prioritized criteria.
+* Scenario Analysis: This technique involves defining several plausible alternative scenarios and evaluating the cost and effectiveness of different risk responses for each scenario. It can be used for comparison of alternatives if the organization can choose between scenarios, or for contingency planning if the scenarios are out of the organization's control.
+
+Note: There is no mention of specific figures related to risk management in this section.
+- Critical Chain Project Management (CCPM) uses buffer penetration to trigger actions such as adjusting the relative priority of tasks. (Strengths: can provide early warning of need to communicate with sponsor; Weaknesses: could lead to unwarranted focus on cost dimension; CSFs for Effective Application: attention to overall measure of reserve depletion, prior detailed reserve planning, accurate sizing of the contingency reserve of time or cost relative to the risk to overall project completion date and budget)
+- Reserve Analysis provides a means of tracking spend and releasing contingency amounts as risks expire, can be applied to schedule reserves in the same way. (Strengths: gives early warning of need to communicate with sponsor; Weaknesses: may hide detailed risks with overall measure of reserve depletion; CSFs for Effective Application: accurate sizing of the contingency reserve of time or cost relative to the risk to overall project completion date and budget)
+- Risk Audits provide a formal assessment of compliance with the risk management plan. (Strengths: can provide early warning of need to communicate with sponsor; Weaknesses: can be disruptive to the project and taken as too judgemental to the project team; CSFs for Effective Application: well-specified risk management plan, sensitivity to the burden it places on the project team)
+- Risk Reassessment forces a review of project risks when necessary so that the risk register remains up-to-date. (Weaknesses: takes time and effort; CSFs for Effective Application: well-maintained project and risk documentation scheme)
+- Status Meetings verify information about the status of risks (active, occurred, retired) and maintain team awareness. (Strengths: can provide early warning of need to communicate with sponsor; Weaknesses: none mentioned; CSFs for Effective Application: not mentioned)
+Risk management involves trend analysis, which provides an indication of the effectiveness of earlier responses and can provide trigger conditions for responses. Regular reporting and analysis of critical values are required, with understanding of significant vs. non-significant variation. Variance analysis allows comparison between forecast and actual risk impacts and provides data for Earned Value Analysis. However, it does not show relationship with earlier data and the values can be taken out of context. Realistic prior definitions of thresholds for "significant variance" are needed. Reserve Analysis is a technique to establish a reserve for schedule duration, budget, estimated cost, or funds for a project, and tracking the state of the reserve provides summary information on the evolution of risk status. Time buffers can be used to provide for accepted schedule risks or as a scheduling-related technique in critical chain project management.
+Relevant information about risk management:
+
+* In Critical Chain Project Management (CCPM), tracking the rate at which activity duration buffers are used provides information on schedule risk and triggers risk management activities.
+* Risk audits evaluate if risk management rules are being carried out as specified and if they are adequate for controlling the project.
+* Risk reassessment is done to ensure effective control by repeating the full risk management cycle as required.
+* Risks should be on the agenda at all project reviews, covering topics such as priority risks, changes, status of actions, effectiveness of actions, additional actions required, and impact on plans.
+* Trend analysis involves analyzing the evolution of variance values over time to evaluate how the risk profile is changing, if previous actions are having the expected effect, and if additional actions are required. The Earned Value formulae of the "to complete performance index" can be used for this purpose.
+Relevant information about risk management from the section includes:
+* Earned Value Analysis formulae (CV, SV, CPI, SPI) can be used to set thresholds for action and indicate the ineffectiveness of the risk process.
+* Earned value management systems (EVMS) use variance from plan as the basis for forecasts or extrapolations to the cost at completion.
+* Projections made using EVMS have been shown to be reliable early in the project, specifically around 20% into execution.
+
+This information highlights the importance of monitoring variance from plan and utilizing EVMS to manage risk and forecast costs. Specific thresholds can be set using the CV, SV, CPI, and SPI formulae to trigger action and evaluate the effectiveness of the risk process. Additionally, projections made using EVMS are reliable early in the project, allowing for informed decision-making and risk management.
+Here is the relevant information about risk management from the provided section:
+
+* Project risk analysis & management (PRAM) guide (second edition) by the Association for Project Management, published in 2004.
+* AS/NZS 4360:2004, Risk management, published jointly by Standards Australia and Standards New Zealand in 2004.
+* BS6079-3:2000, Project Management—Part 3. Guide to the management of business-related project risk, published by the British Standards Institute in 2000.
+* BS31100:2007 Code of practice for risk management, published by the British Standards Institute.
+* BS/IEC 62198:2
+• Project Management Institute (PMI). (2004). A guide to the project management body of knowledge (PMBOK® Guide) — Third Edition. Newtown Square, PA USA: Project Management Institute.
+• UK Office of Government Commerce (OGC). (2007). Management of risk—Guidance for practitioners. London, UK: The Stationery Office, ISBN 0-11331038-2.
+• Risk management is a repeated process throughout the project, starting in the planning phase and continuing through the execution, monitoring and controlling, and closure phases.
+• The PMBOK® Guide identifies risk management as one of the ten knowledge areas and defines it as "the process of conducting risk management planning, identification, analysis, responses, and monitoring and control on a project."
+• The OGC's Management of Risk guidance defines risk as "the chance of something happening that will have an impact on objectives" and risk management as "the process by which risks are identified, assessed and controlled."
+• Both the PMBOK® Guide and the OGC's Management of Risk guidance emphasize the importance of risk management in achieving project objectives and achieving a desired outcome.
+• The PMBOK® Guide outlines a process for risk management that includes risk identification, qualitative and quantitative risk analysis, risk response planning, and risk monitoring and control.
+• The OGC's Management of Risk guidance also outlines a process for risk management that includes identifying and assessing risks, planning and implementing responses, and monitoring and reviewing risks.
+• The PMBOK® Guide recommends that organizations establish a risk management plan that outlines the roles and responsibilities of the project team, the risk management process, and the tools and techniques that will be used.
+• The OGC's Management of Risk guidance recommends that organizations establish a risk management framework that includes a risk management policy, a risk management strategy, and a risk management plan.
+• Both the PMBOK® Guide and the OGC's Management of Risk guidance recommend that organizations use a risk register to document and track risks throughout the project.
+• The PMBOK® Guide recommends that organizations use a probability and impact matrix to prioritize risks based on their likelihood of occurrence and the impact they would have on the project.
+• The OGC's Management of Risk guidance recommends that organizations use a risk assessment matrix to prioritize risks based on their likelihood of occurrence and the impact they would have on the project.
+• The PMBOK® Guide recommends that organizations use risk response strategies such as avoidance, transference, mitigation, and acceptance to manage risks.
+• The OGC's Management of Risk guidance recommends that organizations use risk response strategies such as avoiding, reducing, sharing, and retaining risks.
+• Both the PMBOK® Guide and the OGC's Management of Risk guidance recommend that organizations monitor and review risks throughout the project and update the risk register and risk management plan as necessary.
+Risk management relevant information:
+
+- Assumptions affect project planning and are part of its progressive elaboration. They involve a degree of risk.
+- Benefit is a positive effect on a project objective due to the occurrence of an opportunity.
+- Bias during risk information gathering can inhibit impartial judgment, including cognitive and motivational bias.
+- Cause: current events or circumstances that might give rise to risks.
+- Consequence is referred to as impact.
+- Constraint is a restriction or limitation affecting project performance, either internal or external.
+- Contingency Reserve: the amount of funds, budget, or time needed above the estimate to reduce the risk of overruns of project objectives to an acceptable level.
+- Contingency Plan: a plan developed in anticipation of a risk occurrence, executed only if specific predetermined trigger conditions arise.
+- Decision Tree Analysis: a diagram describing a decision under consideration and its implications, used when future scenarios or outcomes are uncertain. It incorporates probabilities, costs, or rewards of each logical path of events and future decisions, using expected monetary value analysis to help identify the relative values of each alternative.
+Relevant information about risk management:
+
+* Risk: an uncertain event or condition that, if it occurs, has a positive or negative effect on at least one project objective
+* Impact: a measure of the effect of a risk on one or more objectives if it occurs
+* Emergent risk: a risk that arises later in a project and could not have been identified earlier
+* Identify Risks: the process of determining which risks may affect the project and documenting their characteristics
+* Likelihood: the probability of a risk occurring
+* Monitor and Control Risks: the process of implementing risk response plans, tracking identified risks, monitoring residual risks, identifying new risks, and evaluating the risk process throughout the project life cycle
+* Monte Carlo Analysis: a technique that computes or iterates the project cost or project schedule many times using input values selected at random from probability distributions of possible costs or durations, to calculate a distribution of possible total project cost or completion dates
+* Objective: something toward which work is to be directed, a result to be obtained, a product to be produced, or a service to be performed
+* Opportunity: a condition or situation favorable to the project, a positive set of circumstances, a positive set of events, a risk that will have a positive impact on project objectives, or a possibility for positive changes. Contrast with threat.
+* Overall Project Risk: the effect of uncertainty on the project as a whole, it is more than the sum of individual risks on a project since it applies to the whole project rather than to individual risks.
+Risk management is the process of identifying, analyzing, and responding to risks in a project. It includes:
+
+- Qualitative Risk Analysis: prioritizing risks by assessing their probability of occurrence and impact.
+- Quantitative Risk Analysis: numerically analyzing the effect of identified risks on overall project objectives.
+- Plan Risk Management: defining how to conduct risk management activities for a project.
+- Plan Risk Responses: developing options and actions to enhance opportunities and reduce threats to project objectives.
+- Probability: a measure of how likely an individual risk is to occur.
+- Project Risk Management: increasing the probability and impact of positive events and decreasing the probability and impact of events adverse to project objectives.
+- Response Strategy: a high-level approach to address an individual risk or overall project risk, broken down into a set of risk actions.
+- Risk: an uncertain event or condition that, if it occurs, has a positive or negative effect on a project’s objectives.
+- Risk Action: a detailed task which implements in whole or in part a response strategy in order to address an individual risk or overall project risk.
+- Risk Attitude: a chosen mental disposition towards risk.
+
+No specific figures were provided in the text.
+Risk management is an approach to uncertainty, driven by perception and evidenced by behavior, that exists on a spectrum with attitudes including risk averse, risk tolerant, risk neutral, and risk seeking. A Risk Breakdown Structure (RBS) is a tool that hierarchically organizes and depicts identified project risks by category and subcategory, such as technical, external, organizational, environmental, or project management. Risk exposure is a measure of overall project risk describing the effect of identified risks on objectives.
+
+The Risk Management Plan is a document that describes how project risk management will be structured and performed, and can be informal or formal based on project needs. It is different from the risk register, which contains the list of project risks, analysis results, and risk responses. Risk metalanguage is a structured description of a risk separating cause, risk, and effect, and a risk model is a representation of the project including data about project elements and risks that can be analyzed by quantitative methods. A risk owner is the person responsible for ensuring risk management.
+The risk register contains the results of the qualitative and quantitative risk analysis, including identified risks, descriptions, categories, causes, probability of occurring, impacts on objectives, proposed responses, owners, and current status. Risk threshold is a measure of the level of risk exposure above which action must be taken. Root cause is an initiating cause that gives rise to a causal chain which may give rise to risks. Secondary risk is a risk that arises as a direct result of implementing a risk response. Stakeholders are actively involved in the project and may be affected by its execution or completion, and can exert influence over the project and its deliverables. Trigger condition is a circumstance under which a risk strategy or risk action will be invoked.
+
+Risk actions are assigned to a single risk action owner and are determined for implementing the chosen risk response strategy. Assumptions are identified and analyzed in the risk management process. Communication is an important aspect of risk management. A complete risk statement includes cause, risk, and effect.
+Risk management is a critical aspect of project management, and it includes the following components:
+
+1. Risk identification: This involves the comprehensive identification of risks, which can be emergent or early identified. High-quality risk data is essential for this process, and it can be collected through data gathering tools, historical review, and individual risk plans.
+2. Risk analysis: There are two types of risk analysis - qualitative and quantitative. Qualitative risk analysis involves the use of creativity techniques, impact analysis, and an iterative process to assess risks. Quantitative risk analysis, on the other hand, uses data and statistical methods to determine the probability and impact of risks. Techniques used in quantitative risk analysis include decision tree analysis and Monte Carlo analysis.
+3. Risk management plan: A risk management plan is essential for effective risk management. It includes the management of constraints, contingency plan, contingency reserve plan, and risk responses. The plan should also cover critical success factors, individual risk plans, and overall project risk plans.
+4. Risk monitoring and control: This involves monitoring risks throughout the project and controlling them through appropriate responses. Risk monitoring and control should be based on high-quality information, and it includes risk monitoring, tracking, and documentation of results.
+5. Risk responses: There are various risk responses, including contingency response strategies, objective plan risk responses, and critical success factor plan risk responses. These responses should be designed to address both threats and opportunities.
+
+Specific figures mentioned in the text include:
+
+* 25-29: Risk identification process
+* 31-33: Qualitative risk analysis
+* 37-40: Quantitative risk analysis
+* 44-46: Critical success factors plan risk responses
+* 47: Contingency response strategy
+* 48: Individual risk plan risk responses
+* 49: Overall project risk plan risk responses
+* 51-55: Risk monitoring and control.
+Relevant information about risk management:
+
+* Qualitative risk analysis (31-35): agreed-upon approach, agreed-upon definitions of risk terms, assessing risk importance, categorizing risk causes, collecting and analyzing data, high-quality information, iterative process, flow chart.
+* Quantitative risk analysis (37-42, 42): process, comparison with qualitative risk analysis, probability, project risk, resources, budget, and schedule.
+* Plan Risk Management (19-24): process-related criteria, project-related criteria, templates, roles and responsibilities.
+* Plan Risk Responses (43-50): action planning, addressing threats and opportunities, appropriate, timely, effective, and agreed-upon responses, communication with stakeholders, critical success factors, exposure reviewing and documenting, interaction of risks and responses, ownership and responsibility assignment, project management plan, purpose and objectives, resources, response identification, response selection, results documentation, roles and responsibilities, timing, tools and techniques.
+* Risk monitoring and control (55): ownership.
+* Risk register (50).
+* Project Risk Management (4, 9, 14-16, 39): critical success factors, definition, process, project manager role, responsibility for, role in project management.
+* Problem (10, 15, 35).
+Prioritizing risks, quantitative risk analysis, results documentation, tools and techniques, data gathering, high-quality risk data, interrelationships between risks, overall project risk, risk identification, purpose and objectives, qualitative risk analysis, response planning, risk impact calculation, uncertainty, risk attitude, risk awareness, risk breakdown structures (RBS), risk categories, risk causes, risk exposure, risk identification methods (cause, risk, and effect, complete risk statement, comprehensive identification, creativity techniques, historical review, iterative identification, multiple perspectives, objectivity, opportunities identification, ownership, project objectives linking), risk management plan critical success factors.
+
+Quantitative risk analysis is appropriate for project modeling, and it involves comparing with qualitative risk analysis, comprehensive risk representation, and deriving overall project risk from individual risks. Risk identification should be prioritized, and it is crucial to gather high-quality risk data, commit to collecting unbiased data, and consider uncertainty when analyzing risk.
+
+Risk management good practices include prioritizing risks, conducting quantitative and qualitative risk analysis, and documenting results. The risk management plan should include critical success factors such as commitment to collecting high-quality risk data, using appropriate analysis methods, and considering interrelationships between risks.
+
+Risk identification methods include cause, risk, and effect analysis, complete risk statement, comprehensive identification, creativity techniques, historical review, iterative identification, multiple perspectives, objectivity, opportunities identification, ownership, and linking risk identification to project objectives. Risk breakdown structures (RBS) can be used to categorize risks, and risk categories should be identified and analyzed. Risk causes and exposure should also be considered in the risk management process.
+Risk management is a crucial part of project management as it helps organizations to address uncertainties and potential risks. Here are the key points related to risk management from the provided text:
+
+1. Risk model: A risk model is used to identify, analyze, and prioritize risks. It includes project-related criteria and process-related criteria.
+2. Risk monitoring and control: The purpose and objectives of risk monitoring and control are to ensure that risks are identified, assessed, and managed effectively. It involves tracking overall risk, managing contingency reserves, integrating with project monitoring and control, and maintaining risk awareness.
+3. Risk owner plan: The risk owner is responsible for planing risk responses.
+4. Risk register: A risk register is used to document risks, risk responses, and risk owners.
+5. Risk response strategies: Risk response strategies include accepting, avoiding, mitigating, and transferring risks.
+6. Risk threshold: A risk threshold is the level of risk that an organization is willing to accept.
+7. Risks and responses: Risks and responses are interrelated and need to be managed in an interactive manner.
+8. Roles and responsibilities: Clear roles and responsibilities are essential for effective risk management.
+9. Tools and techniques: Various tools and techniques are used for risk identification, analysis, and response planning. These include qualitative and quantitative risk analysis, risk monitoring and control, and plan risk responses.
+10. Trigger conditions: Trigger conditions are used to identify and monitor risks.
+11. Uncertainty: Uncertainty is an inherent part of project management and needs to be addressed through risk management.
+
+These are the key points related to risk management from the provided text. It is important to note that effective risk management requires a proactive approach and ongoing monitoring and control.

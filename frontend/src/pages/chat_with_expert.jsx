@@ -36,7 +36,28 @@ const ChatbotInterface = () => {
   const [imagePreview, setImagePreview] = useState(null); // State for image preview
   const [clickedTab, setClickedTab] = useState(null);
   const profilePicture = user?.picture; // Profile picture URL from Google
-
+  const sendMessageToBackend = async (message) => {
+    try {
+      const response = await fetch('http://localhost:5000/api/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ message }),
+      });
+      
+      const data = await response.json();
+      if (response.ok) {
+        return data.response;
+      } else {
+        console.error('Error:', data.error);
+        return 'Sorry, I encountered an error processing your request.';
+      }
+    } catch (error) {
+      console.error('Network error:', error);
+      return 'Sorry, I cannot connect to the server at the moment.';
+    }
+  };
   const handleTabClick = (tab) => {
     if (tab === "chat") {
       setActiveTab(tab);
@@ -123,49 +144,58 @@ const ChatbotInterface = () => {
   };
 
   // Handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!isAuthenticated) {
-      // Trigger login modal if not authenticated
       loginWithRedirect();
       return;
     }
   
     if (input.trim() !== "") {
       setSubmitted(true);
-      setSummary(`Summary of ${input}...`);
       setMessages([...messages, { sender: "user", text: input }]);
+      
+      // Send message to backend and get response
+      const botResponse = await sendMessageToBackend(input);
+      setMessages(prev => [...prev, { sender: "bot", text: botResponse }]);
+      
       setInput("");
     }
   };
   // Handle starting a new chat
-const handleNewChat = () => {
-  if (!isAuthenticated) {
-    // Trigger login modal if not authenticated
-    loginWithRedirect();
-    return;
-  }
+  const handleNewChat = () => {
+    if (!isAuthenticated) {
+      // Trigger login modal if not authenticated
+      loginWithRedirect();
+      return;
+    }
 
-  setSelectedConversation(null);
-  setMessages([]);
-  setInput("");
-};
+    setSelectedConversation(null);
+    setMessages([]);
+    setInput("");
+  };
 
-// Handle new message submission (e.g., sending message with an image)
-const handleNewMessageSubmit = (e) => {
-  e.preventDefault();
-  if (!isAuthenticated) {
-    // Trigger login modal if not authenticated
-    loginWithRedirect();
-    return;
-  }
+  // Handle new message submission (e.g., sending message with an image)
+  const handleNewMessageSubmit = async (e) => {
+    e.preventDefault();
+    if (!isAuthenticated) {
+      loginWithRedirect();
+      return;
+    }
 
-  if (imagePreview) {
-    // Handle image sending logic here
-    setImagePreview(null); // Clear image after sending
-  }
-  setNewMessage(""); // Clear message input
-};
+    if (newMessage.trim() !== "") {
+      setMessages(prev => [...prev, { sender: "user", text: newMessage }]);
+      
+      // Send message to backend and get response
+      const botResponse = await sendMessageToBackend(newMessage);
+      setMessages(prev => [...prev, { sender: "bot", text: botResponse }]);
+      
+      if (imagePreview) {
+        setImagePreview(null);
+      }
+      setNewMessage("");
+    }
+  };
   const handleFileUpload = (e) => {
     const file = e.target.files[0];
     if (file) {
@@ -383,29 +413,6 @@ const handleNewMessageSubmit = (e) => {
               </div>
             </div>
           </div>
-
-          {/* {activeTab === "flashcards" && (
-          <div className="max-w-4xl  py-8 px-4 flex flex-col">
-            <div className="text-center p-8 border-2 border-dashed border-gray-300 rounded-lg">
-              <h3 className="text-xl font-medium text-gray-600 mb-2">
-                Flashcards
-              </h3>
-              <p className="text-gray-500">
-                Create and study flashcards based on your conversation
-              </p>
-            </div>
-          </div>
-        )}
-
-        {activeTab === "summary" && (
-          <div className="w-full max-w-2xl mx-auto py-8 px-4">
-            <div className="p-6 bg-gray-50 rounded-lg w-full">
-              <h3 className="text-xl font-medium mb-4">Conversation Summary</h3>
-              <p className="text-gray-600">{summary}</p>
-            </div>
-          </div>
-        )} */}
-
           {/* Chat Content */}
           {activeTab === "chat" && (
             <div className="flex-1 overflow-y-auto py-4 px-4">
@@ -429,7 +436,7 @@ const handleNewMessageSubmit = (e) => {
                     <img
                       src={user?.picture || "https://via.placeholder.com/40"}
                       alt="User Profile"
-                      className="w-12 h-12 rounded-full ml-2"
+                      className="w-8 h-8 rounded-full ml-2"
                     />
                   )}
                 </div>
