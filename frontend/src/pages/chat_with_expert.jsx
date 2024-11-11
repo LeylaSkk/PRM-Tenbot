@@ -24,6 +24,7 @@ const ChatbotInterface = () => {
   const { user } = useAuth0();
 
   const [showModal, setShowModal] = useState(!isAuthenticated);
+  const botProfilePicture = "/bot.png";
 
   const [input, setInput] = useState("");
   const [submitted, setSubmitted] = useState(false);
@@ -321,7 +322,7 @@ const ChatbotInterface = () => {
   } else {
     return (
       <div
-        className={`flex h-[92vh] bg-white ${
+        className={`flex h-[92vh] overflow-hidden bg-white ${
           activeTab === "chat" ? "grow" : ""
         }`}
       >
@@ -414,35 +415,43 @@ const ChatbotInterface = () => {
             </div>
           </div>
           {/* Chat Content */}
-          {activeTab === "chat" && (
-            <div className="flex-1 overflow-y-auto py-4 px-4">
-              {messages.map((message, index) => (
-                <div
-                  key={index}
-                  className={`mb-4 flex items-end ${
-                    message.sender === "user" ? "justify-end" : "justify-start"
-                  }`}
-                >
-                  <div
-                    className={`inline-block p-3 rounded-lg ${
-                      message.sender === "user"
-                        ? "bg-gray-600 text-white"
-                        : "bg-gray-100 text-gray-800"
-                    }`}
-                  >
-                    {message.text}
-                  </div>
-                  {message.sender === "user" && (
-                    <img
-                      src={user?.picture || "https://via.placeholder.com/40"}
-                      alt="User Profile"
-                      className="w-8 h-8 rounded-full ml-2"
-                    />
-                  )}
-                </div>
-              ))}
+    {/* Chat Content */}
+    {activeTab === "chat" && (
+      <div className="flex-1 overflow-y-auto py-4 px-4">
+        {messages.map((message, index) => (
+          <div
+            key={index}
+            className={`mb-4 flex items-end ${
+              message.sender === "user" ? "justify-end" : "justify-start"
+            }`}
+          >
+            {message.sender === "bot" && (
+              <img
+                src={botProfilePicture}
+                alt="Bot Profile"
+                className="w-10 h-10 rounded-full mr-2"
+              />
+            )}
+            <div
+              className={`inline-block p-3 rounded-lg ${
+                message.sender === "user"
+                  ? "bg-gray-600 text-white"
+                  : "bg-gray-100 text-gray-800"
+              }`}
+            >
+              {message.text}
             </div>
-          )}
+            {message.sender === "user" && (
+              <img
+                src={user?.picture || "https://via.placeholder.com/40"}
+                alt="User Profile"
+                className="w-10 h-10 rounded-full ml-2"
+              />
+            )}
+          </div>
+        ))}
+      </div>
+    )}
 
           {/* Input Box */}
           {activeTab === "chat" && (
@@ -473,7 +482,7 @@ const ChatbotInterface = () => {
                       <FaImage size={20} />
                       <input
                         type="file"
-                        onChange={handleFileUpload} // Image upload handler
+                        onChange={handleFileUpload}
                         className="hidden"
                       />
                     </label>

@@ -5,7 +5,7 @@ import { faFacebookF, faLinkedinIn, faInstagram } from '@fortawesome/free-brands
 
 const Navbar = () => {
   return (
-    <header id="top" style={{ padding: '1rem 4vw', backgroundColor: '#ffffff' }}>
+    <header className= "z-50 overflow-hidden" id="top" style={{ padding: '1rem 4vw', backgroundColor: '#ffffff' }}>
       <div style={{ maxWidth: '100%', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 2rem' }}>
         
         {/* Logo */}
