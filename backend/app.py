@@ -125,7 +125,6 @@ def generate_answer(query, retrieved_docs):
         answer_text = generator_tokenizer.decode(outputs[0], skip_special_tokens=True)
         
         # Add figure URLs to the response if there are any
-        # In the generate_answer function
         figure_urls = []
         if figure_references:
             for figure in figure_references:
@@ -139,14 +138,18 @@ def generate_answer(query, retrieved_docs):
                 figure_url = f"http://localhost:5000/api/figures/Figure%20{figure_number}.png"
                 figure_urls.append(figure_url)
 
+        # Only add the figure reference text if there are figures
+        final_text = answer_text
+        if figure_urls:
+            final_text += "\nYou can refer to the following figure(s) for more details:"
+
         # Print the response for debugging
-        print("Generated response:", {"text": answer_text, "figures": figure_urls})
+        print("Generated response:", {"text": final_text, "figures": figure_urls})
 
         return {
-            "text": answer_text + "\nYou can refer to the following figure(s) for more details:",
+            "text": final_text,
             "figures": figure_urls
         }
-
         
     except Exception as e:
         print(f"Error in generate_answer: {str(e)}")
@@ -154,7 +157,6 @@ def generate_answer(query, retrieved_docs):
             "text": "I encountered an error while generating the answer. Please try again.",
             "figures": []
         }
-
 
 def preprocess_query(query):
     if not query:
@@ -244,7 +246,7 @@ def chat():
                 'figures': []
             },
             'type': 'error'
-        }), 500
+        }), 500 
 
 @app.route('/api/figures/<path:filename>', methods=['GET'])
 def serve_figure(filename):
