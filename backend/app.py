@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from sentence_transformers import SentenceTransformer
@@ -8,6 +8,7 @@ import os
 
 app = Flask(__name__)
 CORS(app)
+figures_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '/AI_extracted_images/'))
 
 # Initialize models globally
 print("Loading models...")
@@ -79,14 +80,20 @@ def preprocess_retrieved_docs(docs):
 
 def generate_answer(query, retrieved_docs):
     if not retrieved_docs:
-        return "I don't have enough information to answer that question. Please try asking something about risk management."
-        
+        return {
+            "text": "I don't have enough information to answer that question. Please try asking something about risk management.",
+            "figures": []
+        }
+    
     try:
         context = " ".join(preprocess_retrieved_docs(retrieved_docs))
         figure_references = [doc for doc in retrieved_docs if "Figure" in doc]
         
         if not context.strip():
-            return "I don't have enough context to provide a meaningful answer."
+            return {
+                "text": "I don't have enough context to provide a meaningful answer.",
+                "figures": []
+            }
         
         input_text = (
             f"Answer concisely based on risk management information provided.\n\n"
@@ -109,23 +116,45 @@ def generate_answer(query, retrieved_docs):
             length_penalty=2.0,
             early_stopping=True,
             no_repeat_ngram_size=3,
-            do_sample=True,  # Enable sampling
-            temperature=0.7,  # Slightly higher temperature for more creative responses
-            top_p=0.9,       # Keep top tokens with cumulative probability of 90%
+            do_sample=True,
+            temperature=0.7,
+            top_p=0.9,
             top_k=50   
         )
         
-        answer = generator_tokenizer.decode(outputs[0], skip_special_tokens=True)
+        answer_text = generator_tokenizer.decode(outputs[0], skip_special_tokens=True)
         
+        # Add figure URLs to the response if there are any
+        # In the generate_answer function
+        figure_urls = []
         if figure_references:
-            figure_text = "\n\nYou can refer to the following figure(s) for more details: " + ", ".join(figure_references)
-            answer += figure_text
-            
-        return answer.strip()
+            for figure in figure_references:
+                # Extract the figure number more robustly
+                figure_number = figure.split("Figure")[1].strip().split()[0]
+                
+                # Ensure the figure number is clean by removing any trailing punctuation
+                figure_number = figure_number.rstrip(")., ")
+
+                # Generate the URL with the cleaned figure number
+                figure_url = f"http://localhost:5000/api/figures/Figure%20{figure_number}.png"
+                figure_urls.append(figure_url)
+
+        # Print the response for debugging
+        print("Generated response:", {"text": answer_text, "figures": figure_urls})
+
+        return {
+            "text": answer_text + "\nYou can refer to the following figure(s) for more details:",
+            "figures": figure_urls
+        }
+
         
     except Exception as e:
         print(f"Error in generate_answer: {str(e)}")
-        return "I encountered an error while generating the answer. Please try again."
+        return {
+            "text": "I encountered an error while generating the answer. Please try again.",
+            "figures": []
+        }
+
 
 def preprocess_query(query):
     if not query:
@@ -160,7 +189,10 @@ def chat():
         
         if not query:
             return jsonify({
-                'response': 'Please provide a message to process.',
+                'response': {
+                    'text': 'Please provide a message to process.',
+                    'figures': []
+                },
                 'type': 'error'
             }), 400
             
@@ -168,7 +200,10 @@ def chat():
         greetings = ["hello", "hey", "hi", "good morning", "good afternoon", "good evening"]
         if any(greet in query.lower() for greet in greetings):
             return jsonify({
-                'response': "Hello! I'm your guide in risk management. How can I help you today?",
+                'response': {
+                    'text': "Hello! I'm your guide in risk management. How can I help you today?",
+                    'figures': []
+                },
                 'type': 'greeting'
             })
             
@@ -179,12 +214,23 @@ def chat():
         
         if not retrieved_docs:
             return jsonify({
-                'response': "I'm focused on risk management. I couldn't find relevant information for your question. Please try asking something about risk management concepts, processes, or best practices.",
+                'response': {
+                    'text': "I'm focused on risk management. I couldn't find relevant information for your question. Please try asking something about risk management concepts, processes, or best practices.",
+                    'figures': []
+                },
                 'type': 'no_results'
             })
             
         response = generate_answer(query, retrieved_docs)
+        print("Generated response:", response)  # Debug log
         
+        # Ensure response has the correct structure
+        if isinstance(response, dict):
+            if 'text' not in response:
+                response = {'text': str(response), 'figures': []}
+        else:
+            response = {'text': str(response), 'figures': []}
+            
         return jsonify({
             'response': response,
             'type': 'answer'
@@ -193,9 +239,29 @@ def chat():
     except Exception as e:
         print(f"Error processing request: {str(e)}")
         return jsonify({
-            'error': 'An error occurred while processing your request. Please try again.',
+            'response': {
+                'text': 'An error occurred while processing your request. Please try again.',
+                'figures': []
+            },
             'type': 'error'
         }), 500
+
+@app.route('/api/figures/<path:filename>', methods=['GET'])
+def serve_figure(filename):
+    # Replace %20 with spaces to match the actual filename
+    filename = filename.replace("%20", " ")
+    figures_folder = os.path.abspath("frontend/public/AI_extracted_images")
+    figure_path = os.path.join(figures_folder, filename)
+    
+    print(f"Attempting to serve file from path: {figure_path}")  # Debug statement
+
+    if os.path.exists(figure_path):
+        print("File exists and will be served.")
+        return send_file(figure_path)
+    else:
+        print("File not found!")
+        return jsonify({'error': f'Figure not found: {filename}'}), 404
+
 
 @app.route('/api/health', methods=['GET'])
 def health_check():

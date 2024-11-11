@@ -49,14 +49,21 @@ const ChatbotInterface = () => {
       
       const data = await response.json();
       if (response.ok) {
-        return data.response;
+        // Return just the response object, not data.response
+        return data;
       } else {
         console.error('Error:', data.error);
-        return 'Sorry, I encountered an error processing your request.';
+        return { 
+          text: 'Sorry, I encountered an error processing your request.',
+          figures: []
+        };
       }
     } catch (error) {
       console.error('Network error:', error);
-      return 'Sorry, I cannot connect to the server at the moment.';
+      return { 
+        text: 'Sorry, I cannot connect to the server at the moment.',
+        figures: []
+      };
     }
   };
   const handleTabClick = (tab) => {
@@ -144,6 +151,25 @@ const ChatbotInterface = () => {
     setInput(e.target.value);
   };
 
+  const addBotResponse = async (userMessage) => {
+    setMessages((prev) => [...prev, { sender: "user", text: userMessage }]);
+  
+    const response = await sendMessageToBackend(userMessage);
+    // console.log("Backend response:", response); // Log to verify response structure
+  
+    if (response && response.response && response.response.text) {
+      setMessages((prev) => [
+        ...prev,
+        {
+          sender: "bot",
+          text: response.response.text,
+          figures: response.response.figures || [],
+        },
+      ]);
+    } else {
+      console.error("Response is missing required fields", response);
+    }
+  };
   // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -154,15 +180,28 @@ const ChatbotInterface = () => {
   
     if (input.trim() !== "") {
       setSubmitted(true);
-      setMessages([...messages, { sender: "user", text: input }]);
-      
-      // Send message to backend and get response
-      const botResponse = await sendMessageToBackend(input);
-      setMessages(prev => [...prev, { sender: "bot", text: botResponse }]);
-      
+      await addBotResponse(input);
       setInput("");
     }
   };
+  
+  
+  const generateAnswer = async (query) => {
+    try {
+      const response = await sendMessageToBackend(query);
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        { sender: "bot", text: response.text, figures: response.figures || [] }
+      ]);
+    } catch (error) {
+      console.error("Error generating answer:", error);
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        { sender: "bot", text: "Sorry, I encountered an error while generating the answer.", figures: [] }
+      ]);
+    }
+  };
+  
   // Handle starting a new chat
   const handleNewChat = () => {
     if (!isAuthenticated) {
@@ -183,20 +222,37 @@ const ChatbotInterface = () => {
       loginWithRedirect();
       return;
     }
-
+  
     if (newMessage.trim() !== "") {
-      setMessages(prev => [...prev, { sender: "user", text: newMessage }]);
-      
-      // Send message to backend and get response
-      const botResponse = await sendMessageToBackend(newMessage);
-      setMessages(prev => [...prev, { sender: "bot", text: botResponse }]);
-      
-      if (imagePreview) {
-        setImagePreview(null);
-      }
+      await addBotResponse(newMessage);
       setNewMessage("");
     }
   };
+  const displayFigures = async (figureUrls) => {
+    try {
+      const figures = await Promise.all(
+        figureUrls.map(async (url) => {
+          const response = await fetch(url);
+          if (response.ok) {
+            const imageBlob = await response.blob();
+            return { image: URL.createObjectURL(imageBlob) };
+          } else {
+            console.error(`Error fetching figure from ${url}`);
+            return null;
+          }
+        })
+      );
+  
+      // Display the figures in the chat window
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        { sender: "bot", figures: figures.filter(Boolean) }
+      ]);
+    } catch (error) {
+      console.error("Error displaying figures:", error);
+    }
+  };
+
   const handleFileUpload = (e) => {
     const file = e.target.files[0];
     if (file) {
@@ -418,39 +474,52 @@ const ChatbotInterface = () => {
     {/* Chat Content */}
     {activeTab === "chat" && (
       <div className="flex-1 overflow-y-auto py-4 px-4">
-        {messages.map((message, index) => (
-          <div
-            key={index}
-            className={`mb-4 flex items-end ${
-              message.sender === "user" ? "justify-end" : "justify-start"
-            }`}
-          >
-            {message.sender === "bot" && (
-              <img
-                src={botProfilePicture}
-                alt="Bot Profile"
-                className="w-10 h-10 rounded-full mr-2"
-              />
-            )}
-            <div
-              className={`inline-block p-3 rounded-lg ${
-                message.sender === "user"
-                  ? "bg-gray-600 text-white"
-                  : "bg-gray-100 text-gray-800"
-              }`}
-            >
-              {message.text}
-            </div>
-            {message.sender === "user" && (
-              <img
-                src={user?.picture || "https://via.placeholder.com/40"}
-                alt="User Profile"
-                className="w-10 h-10 rounded-full ml-2"
-              />
-            )}
+{messages.map((message, index) => (
+  <div
+    key={index}
+    className={`mb-4 flex items-end ${
+      message.sender === "user" ? "justify-end" : "justify-start"
+    }`}
+  >
+    {message.sender === "bot" && (
+      <div>
+        {/* Display text if available */}
+        {message.text && (
+          <div className="inline-block p-3 rounded-lg bg-gray-100 text-gray-800">
+            {message.text}
           </div>
-        ))}
+        )}
+        {/* Display figures as clickable images */}
+        {Array.isArray(message.figures) && message.figures.length > 0 && (
+          <div className="flex flex-wrap gap-4">
+            {message.figures.map((figure, figIndex) => (
+              <a
+                href={figure}
+                target="_blank"
+                rel="noopener noreferrer"
+                key={figIndex}
+              >
+                <img
+                  src={figure}
+                  alt="Figure"
+                  className="rounded-lg"
+                  style={{ width: "500px", height: "auto" }}
+                />
+              </a>
+            ))}
+          </div>
+        )}
       </div>
+    )}
+    {message.sender === "user" && (
+      <div className="inline-block p-3 rounded-lg bg-gray-600 text-white">
+        {message.text}
+      </div>
+    )}
+  </div>
+))}
+
+    </div>
     )}
 
           {/* Input Box */}
