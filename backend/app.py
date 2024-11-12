@@ -199,7 +199,7 @@ def chat():
             }), 400
             
         # Check if it's a greeting
-        greetings = ["hello", "hey", "hi", "good morning", "good afternoon", "good evening"]
+        greetings = ["hello", "hey", "good morning", "good afternoon", "good evening"]
         if any(greet in query.lower() for greet in greetings):
             return jsonify({
                 'response': {

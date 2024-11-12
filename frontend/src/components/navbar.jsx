@@ -26,7 +26,7 @@ const Navbar = () => {
             <li><a href="/about" style={{ color: '#1d2f6f', textDecoration: 'none', fontWeight: '500' }}>About us</a></li>
             <li><a href="/training" style={{ color: '#1d2f6f', textDecoration: 'none', fontWeight: '500' }}>Training</a></li>
             <li><a href="/solutions" style={{ color: '#1d2f6f', textDecoration: 'none', fontWeight: '500' }}>Solutions</a></li>
-            <li><a href="/chat_with_expert" style={{ color: '#d22', textDecoration: 'none', fontWeight: 'bold' }}>Chat with our Expert</a></li>
+            <li><a href="/chat_with_tenbot" style={{ color: '#d22', textDecoration: 'none', fontWeight: 'bold' }}>Chat with TenBot</a></li>
             <li><a href="/contact" style={{ color: '#1d2f6f', textDecoration: 'none', fontWeight: '500' }}>Contact</a></li>
           </ul>
         </nav>

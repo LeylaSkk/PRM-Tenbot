@@ -474,50 +474,64 @@ const ChatbotInterface = () => {
     {/* Chat Content */}
     {activeTab === "chat" && (
       <div className="flex-1 overflow-y-auto py-4 px-4">
-{messages.map((message, index) => (
-  <div
-    key={index}
-    className={`mb-4 flex items-end ${
-      message.sender === "user" ? "justify-end" : "justify-start"
-    }`}
-  >
-    {message.sender === "bot" && (
-      <div>
-        {/* Display text if available */}
-        {message.text && (
-          <div className="inline-block p-3 rounded-lg bg-gray-100 text-gray-800">
+  {messages.map((message, index) => (
+    <div
+      key={index}
+      className={`mb-4 flex items-end ${
+        message.sender === "user" ? "justify-end" : "justify-start"
+      }`}
+    >
+      {message.sender === "bot" && (
+        <div className="flex items-center space-x-2">
+          <img
+            src={botProfilePicture}
+            alt="Bot Profile"
+            className="w-10 h-10 rounded-full"
+          />
+          <div>
+            {message.text && (
+              <div className="inline-block p-3 rounded-lg bg-gray-100 text-gray-800">
+                {message.text}
+              </div>
+            )}
+            {Array.isArray(message.figures) && message.figures.length > 0 && (
+              <div className="flex flex-wrap gap-4">
+                {message.figures.map((figure, figIndex) => (
+                  <a
+                    href={figure}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    key={figIndex}
+                  >
+                    <img
+                      src={figure}
+                      alt="Figure"
+                      className="rounded-lg"
+                      style={{ width: "500px", height: "auto" }}
+                    />
+                  </a>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+      {message.sender === "user" && (
+        <div className="flex items-center space-x-2">
+          <div className="inline-block p-3 rounded-lg bg-gray-600 text-white">
             {message.text}
           </div>
-        )}
-        {/* Display figures as clickable images */}
-        {Array.isArray(message.figures) && message.figures.length > 0 && (
-          <div className="flex flex-wrap gap-4">
-            {message.figures.map((figure, figIndex) => (
-              <a
-                href={figure}
-                target="_blank"
-                rel="noopener noreferrer"
-                key={figIndex}
-              >
-                <img
-                  src={figure}
-                  alt="Figure"
-                  className="rounded-lg"
-                  style={{ width: "500px", height: "auto" }}
-                />
-              </a>
-            ))}
-          </div>
-        )}
-      </div>
-    )}
-    {message.sender === "user" && (
-      <div className="inline-block p-3 rounded-lg bg-gray-600 text-white">
-        {message.text}
-      </div>
-    )}
-  </div>
-))}
+          {profilePicture && (
+            <img
+              src={profilePicture}
+              alt="User Profile"
+              className="w-10 h-10 rounded-full"
+            />
+          )}
+        </div>
+      )}
+    </div>
+  ))}
 
     </div>
     )}
@@ -534,7 +548,7 @@ const ChatbotInterface = () => {
                     type="text"
                     value={newMessage}
                     onChange={(e) => setNewMessage(e.target.value)}
-                    placeholder="Ask el m3allem"
+                    placeholder="Ask TenBot"
                     className="w-full p-3 pr-16 rounded-full bg-white text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-900"
                   />
                   {imagePreview && (
